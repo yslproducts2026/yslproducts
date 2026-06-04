@@ -3,127 +3,110 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>YSL Furniture</title>
-<link rel="stylesheet" href="css/style.css">
+<title>YSL Products Co., Ltd.</title>
 <style>
-/* Basic Reset */
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
-body{background:#f8f8f8;color:#333;line-height:1.6;}
-header{background:#222;color:white;padding:2em 0;text-align:center;}
-header h1{font-size:2.5em;margin-bottom:0.3em;}
-header p{font-size:1.2em;color:#ccc;}
-nav{background:#444;text-align:center;padding:1em 0;position:sticky;top:0;z-index:100;}
-nav a{color:white;text-decoration:none;margin:0 1em;font-weight:bold;}
-nav a:hover{color:#f0a500;}
-section{padding:3em 1em;max-width:1200px;margin:auto;background:white;margin-bottom:1em;border-radius:5px;}
-section h2{margin-bottom:1em;color:#222;}
-.filter-buttons{margin-bottom:1.5em;text-align:center;}
-.filter-buttons button{padding:0.5em 1em;margin:0.3em;border:none;background:#222;color:white;cursor:pointer;border-radius:3px;transition:0.2s;}
-.filter-buttons button:hover{background:#f0a500;color:#222;}
-.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5em;}
-.product-card{border:1px solid #ddd;border-radius:5px;overflow:hidden;background:#fff;transition:transform 0.2s;cursor:pointer;}
-.product-card:hover{transform:scale(1.03);}
-.product-card img{width:100%;height:200px;object-fit:cover;}
-.product-card .info{padding:1em;}
-.product-card .info h3{margin-bottom:0.5em;}
-.product-card .info p{font-size:0.9em;color:#666;}
-#lightbox{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);justify-content:center;align-items:center;z-index:9999;}
-#lightbox img{max-width:90%;max-height:90%;}
-footer{background:#222;color:white;text-align:center;padding:2em 1em;}
-@media(max-width:600px){header h1{font-size:2em;}section{padding:2em 1em;}}
+body{font-family:Arial,sans-serif;margin:0;background:#f8f8f8;color:#333}
+header{background:#222;color:#fff;padding:80px 20px;text-align:center}
+header h1{margin:0;font-size:48px}
+header p{font-size:22px}
+section{max-width:1100px;margin:auto;padding:60px 20px}
+h2{text-align:center;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:#fff;padding:15px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.card img{width:100%;border-radius:5px;margin-bottom:10px}
+footer{background:#222;color:#fff;text-align:center;padding:20px}
 </style>
 </head>
 <body>
-
 <header>
-<h1>YSL Furniture</h1>
-<p>Premium Upholstery, Dining & Wood Furniture</p>
+<h1>YSL Products Co., Ltd.</h1>
+<p>Design, Value & Affordability</p>
 </header>
 
-<nav>
-<a href="#about">About Us</a>
-<a href="#products">Products</a>
-<a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
+<section>
 <h2>About Us</h2>
-<p>YSL Furniture specializes in upholstery, dining furniture, and wood furniture manufacturing. From product development and sourcing to manufacturing and quality control, we provide reliable furniture solutions for customers worldwide.</p>
+<p>YSL Products Co., Ltd. delivers stylish, functional, and affordable furniture solutions for modern living spaces. We focus on quality, comfort, and value.</p>
 </section>
-
-<section id="products">
-<h2>Our Products</h2>
-
-<div class="filter-buttons">
-<button onclick="filterProducts('all')">All</button>
-<button onclick="filterProducts('upholstery')">Upholstery</button>
-<button onclick="filterProducts('chairs')">Chairs</button>
-<button onclick="filterProducts('dining')">Dining Sets</button>
-<button onclick="filterProducts('wood')">Wood Products</button>
-</div>
-
-<div class="products">
-<!-- Upholstery -->
-<div class="product-card upholstery" onclick="openLightbox('images/upholstery/SLC120101.jpg')">
-<img src="images/upholstery/SLC120101.jpg" alt="SLC120101">
-<div class="info"><h3>SLC120101</h3><p>83 × 101 × 103 cm</p></div>
-</div>
-<div class="product-card upholstery" onclick="openLightbox('images/upholstery/SLC100101.jpg')">
-<img src="images/upholstery/SLC100101.jpg" alt="SLC100101">
-<div class="info"><h3>SLC100101</h3><p>89 × 75 × 105 cm</p></div>
-</div>
-<!-- Chairs -->
-<div class="product-card chairs" onclick="openLightbox('images/chairs/SDC040101.jpg')">
-<img src="images/chairs/SDC040101.jpg" alt="SDC040101">
-<div class="info"><h3>SDC040101</h3><p>89 × 107 × 67 cm</p></div>
-</div>
-<!-- Dining Sets -->
-<div class="product-card dining" onclick="openLightbox('images/dining/YSL-SSD1003.jpg')">
-<img src="images/dining/YSL-SSD1003.jpg" alt="YSL-SSD1003">
-<div class="info"><h3>YSL-SSD1003</h3><p>Dining Set</p></div>
-</div>
-<!-- Wood Products -->
-<div class="product-card wood" onclick="openLightbox('images/wood/YSL-25E.jpg')">
-<img src="images/wood/YSL-25E.jpg" alt="YSL-25E">
-<div class="info"><h3>YSL-25E</h3><p>Paper Laminated</p></div>
-</div>
-<div class="product-card wood" onclick="openLightbox('images/wood/solid-veneer.jpg')">
-<img src="images/wood/solid-veneer.jpg" alt="Solid + Veneer">
-<div class="info"><h3>Solid + Veneer</h3><p>Premium Wood Product</p></div>
-</div>
+<section>
+<h2>chairs</h2>
+<div class="grid">
+<div class="card"><img src="images/chairs/page_23_img_01.jpg" alt="page_23_img_01.jpg"><h3>page_23_img_01.jpg</h3></div>
+<div class="card"><img src="images/chairs/page_23_img_02.jpg" alt="page_23_img_02.jpg"><h3>page_23_img_02.jpg</h3></div>
+<div class="card"><img src="images/chairs/page_23_img_03.jpg" alt="page_23_img_03.jpg"><h3>page_23_img_03.jpg</h3></div>
+<div class="card"><img src="images/chairs/page_23_img_04.jpg" alt="page_23_img_04.jpg"><h3>page_23_img_04.jpg</h3></div>
+<div class="card"><img src="images/chairs/page_23_img_05.jpg" alt="page_23_img_05.jpg"><h3>page_23_img_05.jpg</h3></div>
+<div class="card"><img src="images/chairs/page_23_img_06.jpg" alt="page_23_img_06.jpg"><h3>page_23_img_06.jpg</h3></div>
+<div class="card"><img src="images/chairs/page_23_img_07.jpg" alt="page_23_img_07.jpg"><h3>page_23_img_07.jpg</h3></div>
+<div class="card"><img src="images/chairs/page_23_img_08.jpg" alt="page_23_img_08.jpg"><h3>page_23_img_08.jpg</h3></div>
+<div class="card"><img src="images/chairs/page_23_img_09.jpg" alt="page_23_img_09.jpg"><h3>page_23_img_09.jpg</h3></div>
+<div class="card"><img src="images/chairs/page_23_img_10.jpg" alt="page_23_img_10.jpg"><h3>page_23_img_10.jpg</h3></div>
+<div class="card"><img src="images/chairs/page_23_img_11.jpg" alt="page_23_img_11.jpg"><h3>page_23_img_11.jpg</h3></div>
+<div class="card"><img src="images/chairs/page_23_img_12.jpg" alt="page_23_img_12.jpg"><h3>page_23_img_12.jpg</h3></div>
+<div class="card"><img src="images/chairs/page_23_img_13.jpg" alt="page_23_img_13.jpg"><h3>page_23_img_13.jpg</h3></div>
+<div class="card"><img src="images/chairs/page_23_img_14.jpg" alt="page_23_img_14.jpg"><h3>page_23_img_14.jpg</h3></div>
+<div class="card"><img src="images/chairs/sdc040101.jpg" alt="sdc040101.jpg"><h3>sdc040101.jpg</h3></div>
 </div>
 </section>
-
-<div id="lightbox" onclick="closeLightbox()">
-<img id="lightbox-img">
+<section>
+<h2>Dining</h2>
+<div class="grid">
+<div class="card"><img src="images/Dining/page_24_img_01.jpg" alt="page_24_img_01.jpg"><h3>page_24_img_01.jpg</h3></div>
+<div class="card"><img src="images/Dining/page_24_img_02.jpg" alt="page_24_img_02.jpg"><h3>page_24_img_02.jpg</h3></div>
 </div>
+</section>
+<section>
+<h2>upholstery</h2>
+<div class="grid">
+<div class="card"><img src="images/upholstery/page_06_img_01.jpg" alt="page_06_img_01.jpg"><h3>page_06_img_01.jpg</h3></div>
+<div class="card"><img src="images/upholstery/page_06_img_02.jpg" alt="page_06_img_02.jpg"><h3>page_06_img_02.jpg</h3></div>
+<div class="card"><img src="images/upholstery/page_06_img_04.jpg" alt="page_06_img_04.jpg"><h3>page_06_img_04.jpg</h3></div>
+<div class="card"><img src="images/upholstery/page_08_img_01.jpg" alt="page_08_img_01.jpg"><h3>page_08_img_01.jpg</h3></div>
+<div class="card"><img src="images/upholstery/page_08_img_02.jpg" alt="page_08_img_02.jpg"><h3>page_08_img_02.jpg</h3></div>
+<div class="card"><img src="images/upholstery/page_08_img_05.jpg" alt="page_08_img_05.jpg"><h3>page_08_img_05.jpg</h3></div>
+<div class="card"><img src="images/upholstery/page_12_img_01.jpg" alt="page_12_img_01.jpg"><h3>page_12_img_01.jpg</h3></div>
+<div class="card"><img src="images/upholstery/page_12_img_02.jpg" alt="page_12_img_02.jpg"><h3>page_12_img_02.jpg</h3></div>
+<div class="card"><img src="images/upholstery/slc100101 (3).png" alt="slc100101 (3).png"><h3>slc100101 (3).png</h3></div>
+<div class="card"><img src="images/upholstery/slc100101 (4).png" alt="slc100101 (4).png"><h3>slc100101 (4).png</h3></div>
+<div class="card"><img src="images/upholstery/slc100101 (5).png" alt="slc100101 (5).png"><h3>slc100101 (5).png</h3></div>
+<div class="card"><img src="images/upholstery/SLC120101.jpg" alt="SLC120101.jpg"><h3>SLC120101.jpg</h3></div>
+</div>
+</section>
+<section>
+<h2>Wood Paper Laminated</h2>
+<div class="grid">
+<div class="card"><img src="images/Wood_Paper_Laminated/page_25_img_01.jpg" alt="page_25_img_01.jpg"><h3>page_25_img_01.jpg</h3></div>
+<div class="card"><img src="images/Wood_Paper_Laminated/page_25_img_02.jpg" alt="page_25_img_02.jpg"><h3>page_25_img_02.jpg</h3></div>
+<div class="card"><img src="images/Wood_Paper_Laminated/page_25_img_03.jpg" alt="page_25_img_03.jpg"><h3>page_25_img_03.jpg</h3></div>
+<div class="card"><img src="images/Wood_Paper_Laminated/page_25_img_04.jpg" alt="page_25_img_04.jpg"><h3>page_25_img_04.jpg</h3></div>
+<div class="card"><img src="images/Wood_Paper_Laminated/page_25_img_05.jpg" alt="page_25_img_05.jpg"><h3>page_25_img_05.jpg</h3></div>
+<div class="card"><img src="images/Wood_Paper_Laminated/page_26_img_01.jpg" alt="page_26_img_01.jpg"><h3>page_26_img_01.jpg</h3></div>
+<div class="card"><img src="images/Wood_Paper_Laminated/page_26_img_02.jpg" alt="page_26_img_02.jpg"><h3>page_26_img_02.jpg</h3></div>
+</div>
+</section>
+<section>
+<h2>Wood Solid Veneer</h2>
+<div class="grid">
+<div class="card"><img src="images/Wood_Solid_Veneer/page_27_img_01.jpg" alt="page_27_img_01.jpg"><h3>page_27_img_01.jpg</h3></div>
+<div class="card"><img src="images/Wood_Solid_Veneer/page_27_img_02.jpg" alt="page_27_img_02.jpg"><h3>page_27_img_02.jpg</h3></div>
+<div class="card"><img src="images/Wood_Solid_Veneer/page_27_img_03.jpg" alt="page_27_img_03.jpg"><h3>page_27_img_03.jpg</h3></div>
+<div class="card"><img src="images/Wood_Solid_Veneer/page_27_img_04.jpg" alt="page_27_img_04.jpg"><h3>page_27_img_04.jpg</h3></div>
+<div class="card"><img src="images/Wood_Solid_Veneer/page_27_img_05.jpg" alt="page_27_img_05.jpg"><h3>page_27_img_05.jpg</h3></div>
+<div class="card"><img src="images/Wood_Solid_Veneer/page_27_img_06.jpg" alt="page_27_img_06.jpg"><h3>page_27_img_06.jpg</h3></div>
+</div>
+</section>
 
-<section id="contact">
-<h2>Contact Us</h2>
-<p>Email: jessie@yslfurniture.com</p>
-<p>Phone: +86 1586821 3949</p>
-<p>Address: ShangHai, China</p>
+<section>
+<h2>Why Choose YSL</h2>
+<div class="grid">
+<div class="card"><h3>Modern Design</h3></div>
+<div class="card"><h3>Excellent Value</h3></div>
+<div class="card"><h3>Affordable Pricing</h3></div>
+<div class="card"><h3>Reliable Manufacturing</h3></div>
+</div>
 </section>
 
 <footer>
-<p>&copy; 2026 YSL Furniture. All rights reserved.</p>
+© 2026 YSL Products Co., Ltd.
 </footer>
-
-<script>
-function filterProducts(category){
-let products=document.querySelectorAll('.product-card');
-products.forEach(product=>{
-if(category==='all'){product.style.display='block';}
-else if(product.classList.contains(category)){product.style.display='block';}
-else{product.style.display='none';}
-});
-}
-function openLightbox(src){
-document.getElementById('lightbox').style.display='flex';
-document.getElementById('lightbox-img').src=src;
-}
-function closeLightbox(){document.getElementById('lightbox').style.display='none';}
-</script>
-
 </body>
 </html>
