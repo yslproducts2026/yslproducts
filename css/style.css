@@ -12,12 +12,12 @@ nav a:hover{color:#8B6B4A}
 .page-header h1{font-size:36px;margin-bottom:5px}
 
 /* Home header */
-.home-header{position:relative;text-align:center;background:#222;color:#fff;padding:40px 20px 60px;min-height:350px}
-.header-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:15px}
+.home-header{position:relative;background:#222;color:#fff;padding:25px 30px}
+.header-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:15px}
 .header-brand{display:flex;align-items:center;gap:15px}
-.header-brand .logo{max-height:80px}
-.header-brand h1{font-size:36px;margin:0;color:#fff}
-.home-header > p{font-size:20px;margin-bottom:15px}
+.header-brand .logo{max-height:65px}
+.header-brand h1{font-size:32px;margin:0;color:#fff}
+.header-brand p{font-size:16px;margin:2px 0 0;color:#ccc}
 .btn{background:#8B6B4A;color:#fff;padding:12px 28px;text-decoration:none;border-radius:5px;font-weight:bold;display:inline-block;transition:background .3s}
 .btn:hover{background:#7a5e41}
 
@@ -65,7 +65,6 @@ footer p{margin:5px 0;color:#aaa}
   .header-row{flex-direction:column;text-align:center}
   .header-brand{flex-direction:column}
   .header-brand h1{font-size:24px}
-  .home-header > p{font-size:16px}
   .page-header h1{font-size:28px}
   nav a{margin:0 8px;font-size:13px}
   .btn-link{font-size:12px;padding:7px 12px}
