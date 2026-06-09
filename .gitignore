@@ -1,0 +1,16 @@
+# Git installer
+Git-2.54.0-64-bit.exe
+GitHubDesktopSetup-x64.exe
+Git/
+
+# Scripts
+OrganizeOutlook.ps1
+
+# Email data
+*.pst
+
+# GitHub cloned repo
+yslproducts/
+
+# Archived files
+_archived/
