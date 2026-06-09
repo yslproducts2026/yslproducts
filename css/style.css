@@ -1,4 +1,4 @@
-﻿锘?* ===== YSL Products Co., Ltd. - Shared Styles ===== */
+﻿/* ===== YSL Products Co., Ltd. - Shared Styles ===== */
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:Arial,sans-serif;background:#fafafa;color:#333}
 
@@ -12,10 +12,12 @@ nav a:hover{color:#8B6B4A}
 .page-header h1{font-size:36px;margin-bottom:5px}
 
 /* Home header */
-.home-header{position:relative;text-align:center;background:#222;color:#fff;padding:80px 20px;min-height:350px}
-.home-header .logo{max-height:100px;margin-bottom:15px}
-.home-header h1{font-size:42px;margin-bottom:10px}
-.home-header p{font-size:20px;margin-bottom:15px}
+.home-header{position:relative;text-align:center;background:#222;color:#fff;padding:40px 20px 60px;min-height:350px}
+.header-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:15px}
+.header-brand{display:flex;align-items:center;gap:15px}
+.header-brand .logo{max-height:80px}
+.header-brand h1{font-size:36px;margin:0;color:#fff}
+.home-header > p{font-size:20px;margin-bottom:15px}
 .btn{background:#8B6B4A;color:#fff;padding:12px 28px;text-decoration:none;border-radius:5px;font-weight:bold;display:inline-block;transition:background .3s}
 .btn:hover{background:#7a5e41}
 
@@ -51,15 +53,21 @@ footer{background:#222;color:#fff;text-align:center;padding:25px;margin-top:40px
 footer .logo{max-height:60px;margin-bottom:10px}
 footer p{margin:5px 0;color:#aaa}
 
+/* Connect buttons (Mail / VPN / IPTV) */
+.quick-links{display:flex;gap:10px;align-items:center}
+.quick-links .btn-link{display:flex;align-items:center;gap:6px;color:#fff;background:#555;padding:10px 20px;text-decoration:none;border-radius:6px;font-weight:bold;transition:background .3s;font-size:15px}
+.quick-links .btn-link:hover{background:#8B6B4A}
+.quick-links .btn-link svg{width:20px;height:20px;fill:#8B6B4A;transition:fill .3s}
+.quick-links .btn-link:hover svg{fill:#fff}
+
 /* Responsive */
 @media(max-width:768px){
-  .home-header h1{font-size:28px}
-  .home-header p{font-size:16px}
+  .header-row{flex-direction:column;text-align:center}
+  .header-brand{flex-direction:column}
+  .header-brand h1{font-size:24px}
+  .home-header > p{font-size:16px}
   .page-header h1{font-size:28px}
   nav a{margin:0 8px;font-size:13px}
+  .btn-link{font-size:12px;padding:7px 12px}
+  .btn-link svg{width:16px;height:16px}
 }
-
-/* Quick links (Mail / VPN) */
-.quick-links{text-align:center;margin-top:15px}
-.quick-links .btn-link{color:#fff;background:#555;padding:8px 18px;text-decoration:none;border-radius:4px;font-weight:bold;display:inline-block;margin:0 6px;transition:background .3s;font-size:14px}
-.quick-links .btn-link:hover{background:#8B6B4A}
