@@ -1,4 +1,4 @@
-﻿/* ===== YSL Products Co., Ltd. - Shared Styles ===== */
+/* ===== YSL Products Co., Ltd. - Shared Styles ===== */
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei","Helvetica Neue",sans-serif;background:#fafafa;color:#333;line-height:1.6}
 
@@ -66,7 +66,7 @@ h2{text-align:center;margin-bottom:15px;font-size:34px;font-weight:700;color:#1a
 .contact-card a:hover{color:#5a4530}
 
 /* Product Grid (Category pages) */
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:30px;max-width:1200px;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;max-width:1200px;margin:auto;width:100%}
 .card{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.06);transition:.3s;cursor:pointer;position:relative}
 .card:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(0,0,0,.1)}
 .card img{width:100%;height:220px;object-fit:contain;display:block}
@@ -140,4 +140,3 @@ footer{background:#1a1a1a;color:#fff;padding:50px 20px 25px;margin-top:0}
   .modal-body h2{font-size:22px}
   h2{font-size:26px}
 }
-
