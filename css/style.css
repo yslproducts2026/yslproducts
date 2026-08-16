@@ -30,12 +30,12 @@ nav{background:#fff;padding:0;position:sticky;top:0;z-index:999;box-shadow:0 1px
 .nav-links a.active{color:#E86A33;background:rgba(232,106,51,.12);font-weight:600}
 
 /* Hero Section */
-.hero{position:relative;background:linear-gradient(135deg,#1a1a1a 0%,#2a2a2a 50%,#8B6B4A 100%);min-height:160px;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px 20px;overflow:hidden}
+.hero{position:relative;background:linear-gradient(135deg,#FFF8F0 0%,#FFE8D6 50%,#FFD4B8 100%);min-height:160px;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px 20px;overflow:hidden}
 .hero::after{content:"";position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(232,106,51,.2),transparent)}
 .hero-content{position:relative;z-index:2;max-width:680px}
-.hero-content h1{font-size:26px;font-weight:800;color:var(--white);margin-bottom:10px;line-height:1.15;letter-spacing:-.5px;text-shadow:0 2px 20px rgba(0,0,0,.3)}
-.hero-content h1 span{color:#E86A33}
-.hero-content p{font-size:13px;color:rgba(255,255,255,.7);margin-bottom:0;line-height:1.5;font-weight:400}
+.hero-content h1{font-size:26px;font-weight:800;color:#1a1a1a;margin-bottom:10px;line-height:1.15;letter-spacing:-.5px}
+.hero-content h1{font-size:26px;font-weight:800;color:#1a1a1a;margin-bottom:10px;line-height:1.15;letter-spacing:-.5px}
+.hero-content p{font-size:13px;color:#888;margin-bottom:0;line-height:1.5;font-weight:400}
 
 /* Trust Bar */
 .trust-bar{display:flex;justify-content:center;align-items:center;padding:22px 20px;background:var(--white);flex-wrap:wrap;box-shadow:0 2px 12px rgba(0,0,0,.04)}
