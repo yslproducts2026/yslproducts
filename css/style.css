@@ -54,7 +54,7 @@ h2{text-align:center;margin-bottom:6px;font-size:28px;font-weight:800;color:var(
 .category-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .category-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08);transition:all .3s ease;text-align:center;border:none}
 .category-card:hover{transform:translateY(-4px);box-shadow:0 8px 25px rgba(0,0,0,.12)}
-.category-card img{width:100%;height:200px;object-fit:cover;display:block}
+.category-card img{width:100%;height:200px;object-fit:contain;display:block;background:#fff;padding:10px}
 
 .category-card h3{padding:16px 12px;margin:0;color:#1a1a1a;font-weight:600;font-size:14px;letter-spacing:.3px}
 .category-card a{text-decoration:none;display:block;height:100%}
@@ -86,7 +86,7 @@ h2{text-align:center;margin-bottom:6px;font-size:28px;font-weight:800;color:var(
 .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:1200px;margin:auto;width:100%;padding:22px 20px}
 .card{background:var(--white);border-radius:10px;overflow:hidden;box-shadow:var(--shadow);transition:var(--transition);cursor:pointer;position:relative;border:1px solid rgba(0,0,0,.04)}
 .card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
-.card img{width:100%;height:195px;object-fit:contain;display:block;background:#f8f8f8;transition:transform .4s ease}
+.card img{width:100%;height:195px;object-fit:contain;display:block;background:#fff;padding:8px;transition:transform .4s ease}
 .card:hover img{transform:scale(1.03)}
 .card .card-label{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,.65),transparent);color:var(--white);padding:18px 10px 6px;font-size:13px;text-align:center;opacity:0;transition:opacity .3s}
 .card:hover .card-label{opacity:1}
