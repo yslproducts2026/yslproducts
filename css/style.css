@@ -52,11 +52,11 @@ h2{text-align:center;margin-bottom:6px;font-size:28px;font-weight:800;color:var(
 
 /* Category Cards (Home page) */
 .category-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
-.category-card{background:#fff;border-radius:8px;overflow:hidden;transition:var(--transition);text-align:center;position:relative;border:1px solid #eee}
-.category-card:hover{transform:translateY(-3px);box-shadow:0 8px 25px rgba(0,0,0,.1)}
-.category-card img{width:100%;height:200px;object-fit:cover}
-.category-card:hover{transform:translateY(-3px);box-shadow:0 8px 25px rgba(0,0,0,.1)}
-.category-card h3{padding:14px 10px;margin:0;color:#1a1a1a;font-weight:600;font-size:14px}
+.category-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08);transition:all .3s ease;text-align:center;border:none}
+.category-card:hover{transform:translateY(-4px);box-shadow:0 8px 25px rgba(0,0,0,.12)}
+.category-card img{width:100%;height:200px;object-fit:cover;display:block}
+
+.category-card h3{padding:16px 12px;margin:0;color:#1a1a1a;font-weight:600;font-size:14px;letter-spacing:.3px}
 .category-card a{text-decoration:none;display:block;height:100%}
 
 /* About Section */
