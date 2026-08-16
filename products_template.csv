@@ -1,0 +1,46 @@
+﻿category,name,sku,image,material,color,dimensions,description
+chairs,Chair Ottoman,YDC-001,page_23_img_01.jpg,Solid Wood + Fabric,Grey Light Wood,60x70x85 cm,Nodic looking Chair with ottoman
+chairs,Classic Dining Chair with Arm,YAC-002,page_23_img_02.jpg,metal leg + fabric,Grey,50x55x95 cm,Metal leg with wood looking heat transfer.
+chairs,Fabric Dining Chair,YOC-003,page_23_img_03.jpg,Fabric+ metal leg,Black,50x45x90 cm,Premium office chair with high-back support
+chairs,Velvet Accent Chair,YVC-004,page_23_img_04.jpg,Velvet Fabric + Metal Legs,Dark Green,65x60x90cm,Luxurious velvet accent chair
+chairs,Fabric Dining Chair,YSC-005,page_23_img_05.jpg,Fabric + Metal Legs,Light Grey/Natural,50x45x90 cm,Minimalist Scandinavian-style dining chair
+chairs,Half moon Chair,YTC-006,page_23_img_06.jpg,Fabric + Wood Frame,Cream,50x55x95 cm,Dining chair with Curved back frame
+chairs,Industrial Bar Stool,YBS-007,Metal Frame + Wood Seat,Black/Walnut,45x50x120 cm,Industrial-style bar stool
+chairs,Diamond Back Bar Stool,YEM-008,Metal leg + Fabric,Black,50x50x120 cm,Metal leg with wood looking heat transfer.
+chairs,Mid-Century Dining Chair,YML-009,Metal leg with hard PU,Brown,50x55x90 cm,Iconic mid-century Dining Chair
+chairs,Arm Dining Chair,YFC-010,Metal Leg with tufted back,Grey,55x60x95 cm,Arm Chair with Tufted button back cushion
+chairs,Swivel Armchair,YRA-011,Fabric + Metal Legs,Grey,55x60x95cm,Swivel arm chair
+chairs,Diamoand arm chair,YKC-012,Fabric + metal legs,Grey,55x60x95cm,Tappered leg with swivel function
+chairs,Banquet Chair,YBC-013,Steel Frame + Fabric,Gold/Cream,48x52x92 cm,Elegant banquet chair
+chairs,Staioned Dining chair,YRC-014,metal leg,Metal,48x52x92 cm,Classic Dining Chair with Tufted design
+dining,4-Seater Dining Set,YDS-001,page_24_img_01.jpg,Solid Wood + MDF table top,Nature white,145x75x75 cm,Complete 4-seater dining set
+dining,2 Tone Dining Sets,YDT-002,page_24_img_02.jpg,Solid pine + MDF table top,Nature white,1118x75x73.5 cm,2 tone dining sets with 4 chairs
+dining,Marble-Top Dining Set,YDM-003,page_24_img_03.jpg,Marble + Stainless Steel,White/Grey,90x90x75 cm,Luxurious marble-top dining set
+dining,Square Pedestal Table,YRT-004,page_24_img_04.jpg,Metal leg with MDF top,White,100x100x75 cm,square pedestal table
+dining,Rectangular 6 chair dining set,YSB-005,page_24_img_05.jpg,Metal leg with Tarrecado,Grey,160x100x75 cm,6 chair dining set
+dining,Compact Dining Set,YCD-006,page_24_img_06.jpg,MDF + Steel Frame,White/Silver,120x80x75 cm,Space-saving dining set
+dining,Farmhouse Dining Table,YFT-007,page_24_img_07.jpg,Reclaimed Wood,Natural,90x90x75 cm,Rustic farmhouse dining table
+dining,Glass Dining Table,YGT-008,page_24_img_08.jpg,Tempered Glass + Chrome,White/Clear,90x90x75 cm,Glass top dining table
+upholstery,3-Seater Sofa,Y3S-001,3s.jpg,Fabric + Wood Frame,Multiple colors,200x90x85 cm,3-seater sofa
+upholstery,Big Boy Sofa,YBB-002,bigboy.jpg,Fabric + Foam,Multiple colors,220x100x90 cm,Large comfortable sofa
+upholstery,Arm Chair Set,YAC-003,page_06_img_01.jpg,Chenille Fabric + foam,Grey,80x80x90 cm,Single arm chair
+upholstery,Arm Chair Set 2,YAC-004,page_06_img_02.jpg,Chenille Fabric + foam,Grey,80x80x90 cm,Single arm chair
+beds-sofas,King Size Bed,YKB-001,bed.jpg,Fabric + Metal Frame,Multiple colors,200x210x150 cm,Elegant king-size bed
+beds-sofas,Sofa Bed,YBB-002,sofabed.jpg,Fabric + Metal Mechanism,Beige,225x152x88 cm,Multi-functional sofa bed
+beds-sofas,2-Seater Sofa Bed,YSS-003,2s sofa bed.jpg,Fabric + extension bed,Beige,160x85x85 cm,Compact 2-seater sofa bed
+beds-sofas,Chair sofa,YWB-004,bed position.jpg,metal leg with PU cushion,black,120x175x90 cm,Chromed leg with tufted PU cushion
+beds-sofas,Twin Bed Frame,YTB-005,bed positon2.jpg,metal leg with PU cushion,black,120x175x90 cm,Chromed leg with tufted PU cushion
+beds-sofas,Chaise Sofa,YCS-006,sofa position.jpg,metal leg with PU cushion,black,120x175x90 cm,Chromed leg with tufted PU cushion
+wood-paper-laminated,TV Entertainment Unit,YTV-001,page_25_img_01.jpg,MDF + Paper Laminate,White,180x40x50 cm,Modern TV entertainment unit
+wood-paper-laminated,Bookshelf,YBS-002,page_25_img_02.jpg,MDF + Paper Laminate,Oak Pattern,80x30x180 cm,5-tier bookshelf
+wood-paper-laminated,Computer Desk,YCD-003,page_25_img_03.jpg,MDF + Steel Frame,White,120x60x75 cm,Modern computer desk
+wood-paper-laminated,Shoe Cabinet,YSC-004,page_25_img_04.jpg,MDF + Paper Laminate,White,80x30x100 cm,Slim shoe cabinet
+wood-paper-laminated,Coffee Table,YCT-005,page_25_img_05.jpg,MDF + Paper Laminate,Oak,100x60x45 cm,Modern coffee table
+wood-paper-laminated,Wardrobe,YWR-006,page_26_img_01.jpg,MDF + Paper Laminate,White,120x55x200 cm,2-door wardrobe
+wood-paper-laminated,Chest of Drawers,YDR-007,page_26_img_02.jpg,MDF + Paper Laminate,White,80x45x90 cm,5-drawer chest
+wood-solid-veneer,Solid Oak Dining Table,YSO-001,page_27_img_01.jpg,Solid Oak Wood,Natural Oak,180x90x78 cm,Premium solid oak dining table
+wood-solid-veneer,Walnut Coffee Table,YWC-002,page_27_img_02.jpg,Solid Walnut Wood,Dark Walnut,130x70x42 cm,Handcrafted walnut coffee table
+wood-solid-veneer,Mahogany Console Table,YMC-003,page_27_img_03.jpg,Mahogany Wood + Veneer,Mahogany,140x35x80 cm,Elegant mahogany console table
+wood-solid-veneer,Teak Sideboard,YTS-004,page_27_img_04.jpg,Teak Wood + Veneer,Teak Brown,160x45x80 cm,Premium teak sideboard
+wood-solid-veneer,Cherry Wood Desk,YCD-005,page_27_img_05.jpg,Cherry Wood + Veneer,Cherry,140x65x76 cm,Executive desk crafted from cherry wood
+wood-solid-veneer,Rosewood Display Cabinet,YRC-006,page_27_img_06.jpg,Rosewood + Glass,Rosewood,90x40x180 cm,Elegant display cabinet
