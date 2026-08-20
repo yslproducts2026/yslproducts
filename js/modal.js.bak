@@ -31,19 +31,27 @@ var products = {
     {name:"FG140272",sku:"FG140272",img:"images/chairs/FG140272.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:""},
     {name:"FG310021",sku:"FG310021",img:"images/chairs/FG310021.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
     {name:"FG310022",sku:"FG310022",img:"images/chairs/FG310022.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
-    {name:"FG310031",sku:"FG310031",img:"images/chairs/FG310031.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:""},
-    {name:"FG330010",sku:"FG330010",img:"images/chairs/FG330010.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:""},
-    {name:"FG330040",sku:"FG330040",img:"images/chairs/FG330040.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:""},
+    {name:"FG310031",sku:"FG310031",img:"images/chairs/FG310031.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
+    {name:"FG310042",sku:"FG310042",img:"images/chairs/FG310042.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
+    {name:"FG310052",sku:"FG310052",img:"images/chairs/FG310052.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
+    {name:"FG310062",sku:"FG310062",img:"images/chairs/FG310062.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
+    {name:"FG310072",sku:"FG310072",img:"images/chairs/FG310072.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
+    {name:"FG310082",sku:"FG310082",img:"images/chairs/FG310082.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
+    {name:"FG310092",sku:"FG310092",img:"images/chairs/FG310092.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
+    {name:"FG320011",sku:"FG320011",img:"images/chairs/FG320011.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
+    {name:"FG330020",sku:"FG330020",img:"images/chairs/FG330020.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
+    {name:"FG330040",sku:"FG330040",img:"images/chairs/FG330040.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
+    {name:"FG330010",sku:"FG330010",img:"images/relaxing/FG330010.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
   ],
   dining: [
-    {name:"Dining Table Set",sku:"Dining Table Set",img:"images/Dining/page_24_img_01.jpg",material:"MDF + veneer",color:"Various",dimensions:"",desc:""},
-    {name:"Dining Chair",sku:"Dining Chair",img:"images/Dining/page_24_img_02.jpg",material:"Fabric + Metal Leg",color:"Various",dimensions:"",desc:""},
-    {name:"Dining Chair Set",sku:"Dining Chair Set",img:"images/Dining/page_24_img_03.jpg",material:"Metal leg + Fabric",color:"Various",dimensions:"",desc:""},
-    {name:"Bar Stool",sku:"Bar Stool",img:"images/Dining/page_24_img_04.jpg",material:"Metal Frame + Wood Seat",color:"Various",dimensions:"",desc:""},
-    {name:"Rattan Dining Chair",sku:"Rattan Dining Chair",img:"images/Dining/page_24_img_05.jpg",material:"Rattan + Metal",color:"Various",dimensions:"",desc:""},
-    {name:"Wooden Dining Chair",sku:"Wooden Dining Chair",img:"images/Dining/page_24_img_06.jpg",material:"Solid Wood",color:"Various",dimensions:"",desc:""},
-    {name:"Upholstered Dining Chair",sku:"Upholstered Dining Chair",img:"images/Dining/page_24_img_07.jpg",material:"Fabric + Wood",color:"Various",dimensions:"",desc:""},
-    {name:"Gaming Chair",sku:"Gaming Chair",img:"images/Dining/page_24_img_08.jpg",material:"PU Leather + Steel",color:"Various",dimensions:"",desc:""},
+    {name:"4-Seater Dining Set",sku:"4-Seater Dining Set",img:"images/Dining/page_24_img_01.jpg",material:"Solid Wood + MDF table top",color:"Various",dimensions:"",desc:""},
+    {name:"2 Tone Dining Sets",sku:"2 Tone Dining Sets",img:"images/Dining/page_24_img_02.jpg",material:"Solid pine + MDF table top",color:"Various",dimensions:"",desc:""},
+    {name:"Marble-Top Dining Set",sku:"Marble-Top Dining Set",img:"images/Dining/page_24_img_03.jpg",material:"Marble + Stainless Steel",color:"Various",dimensions:"",desc:""},
+    {name:"Square Pedestal Table",sku:"Square Pedestal Table",img:"images/Dining/page_24_img_04.jpg",material:"Metal leg with MDF top",color:"Various",dimensions:"",desc:""},
+    {name:"Rectangular 6 chair dining set",sku:"Rectangular 6 chair dining set",img:"images/Dining/page_24_img_05.jpg",material:"Metal leg with Tarrecado",color:"Various",dimensions:"",desc:""},
+    {name:"Compact Dining Set",sku:"Compact Dining Set",img:"images/Dining/page_24_img_06.jpg",material:"MDF + Steel Frame",color:"Various",dimensions:"",desc:""},
+    {name:"Farmhouse Dining Table",sku:"Farmhouse Dining Table",img:"images/Dining/page_24_img_07.jpg",material:"Reclaimed Wood",color:"Various",dimensions:"",desc:""},
+    {name:"Glass Dining Table",sku:"Glass Dining Table",img:"images/Dining/page_24_img_08.jpg",material:"Tempered Glass + Chrome",color:"Various",dimensions:"",desc:""},
   ],
   bedsSofas: [
     {name:"King Size Bed",sku:"King Size Bed",img:"images/beds-sofas/bed.jpg",material:"Fabric + Metal Frame",color:"Various",dimensions:"",desc:""},
@@ -81,17 +89,22 @@ var products = {
     {name:"Mahogany Console Table",sku:"Mahogany Console Table",img:"images/Wood_Solid_Veneer/page_27_img_03.jpg",material:"Mahogany Wood + Veneer",color:"Various",dimensions:"",desc:""},
     {name:"Teak Sideboard",sku:"Teak Sideboard",img:"images/Wood_Solid_Veneer/page_27_img_04.jpg",material:"Teak Wood + Veneer",color:"Various",dimensions:"",desc:""},
     {name:"Cherry Wood Desk",sku:"Cherry Wood Desk",img:"images/Wood_Solid_Veneer/page_27_img_05.jpg",material:"Cherry Wood + Veneer",color:"Various",dimensions:"",desc:""},
-    {name:"Rosewood Display Cabinet",sku:"Rosewood Display Cabinet",img:"images/Wood_Solid_Veneer/page_27_img_06.jpg",material:"Rosewood + Veneer",color:"Various",dimensions:"",desc:""},
+    {name:"Rosewood Display Cabinet",sku:"Rosewood Display Cabinet",img:"images/Wood_Solid_Veneer/page_27_img_06.jpg",material:"Rosewood + Glass",color:"Various",dimensions:"",desc:""},
   ],
   relaxing: [
     {name:"FG113012",sku:"FG113012",img:"images/relaxing/FG113012.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
     {name:"FG113022",sku:"FG113022",img:"images/relaxing/FG113022.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
-    {name:"FG123012",sku:"FG123012",img:"images/relaxing/FG123012.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
-    {name:"FG123022",sku:"FG123022",img:"images/relaxing/FG123022.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
-    {name:"FG136111",sku:"FG136111",img:"images/relaxing/FG136111.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
-    {name:"FG136111MH",sku:"FG136111MH",img:"images/relaxing/FG136111MH.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
-    {name:"FG136121",sku:"FG136121",img:"images/relaxing/FG136121.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
-    {name:"FG136131",sku:"FG136131",img:"images/relaxing/FG136131.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
+    {name:"FG113032",sku:"FG113032",img:"images/relaxing/FG113032.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
+    {name:"FG113042",sku:"FG113042",img:"images/relaxing/FG113042.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
+    {name:"FG113052",sku:"FG113052",img:"images/relaxing/FG113052.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
+    {name:"CH-255099P2",sku:"CH-255099P2",img:"images/relaxing/CH-255099P2.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
+    {name:"FG113102",sku:"FG113102",img:"images/relaxing/FG113102.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
+    {name:"FG136061",sku:"FG136061",img:"images/relaxing/FG136061.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:""},
+    {name:"CH-253085L2",sku:"CH-253085L2",img:"images/relaxing/CH-253085L2.jpg",material:"Steel Frame + Plywood + Manual Control",color:"Various",dimensions:"",desc:""},
+    {name:"FG136072",sku:"FG136072",img:"images/relaxing/FG136072.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:""},
+    {name:"CH-253109L2",sku:"CH-253109L2",img:"images/relaxing/CH-253109L2.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
+    {name:"FG136121MH",sku:"FG136121MH",img:"images/relaxing/FG136121MH.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
+    {name:"FG136122",sku:"FG136122",img:"images/relaxing/FG136122.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
     {name:"FG136131MH",sku:"FG136131MH",img:"images/relaxing/FG136131MH.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
     {name:"FG136132",sku:"FG136132",img:"images/relaxing/FG136132.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
     {name:"FG136141",sku:"FG136141",img:"images/relaxing/FG136141.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
@@ -121,7 +134,6 @@ function ensureModal() {
   overlay.id = "yslModalOverlay";
   overlay.className = "modal-overlay";
   overlay.innerHTML = ""
-    + '<div class="modal-dialog">'
     + '<button class="modal-close" id="yslModalClose">&times;</button>'
     + '<div class="modal-image-wrap"><img id="yslModalImg" src="" alt=""></div>'
     + '<div class="modal-body">'
@@ -130,7 +142,6 @@ function ensureModal() {
     + '<table><tbody id="yslModalSpecs"></tbody></table>'
     + '<p class="modal-desc" id="yslModalDesc"></p>'
     + '<a href="#contact" class="modal-cta" id="yslModalCTA">Inquire About This Product</a>'
-    + '</div>'
     + '</div>';
   document.body.appendChild(overlay);
   closeBtn = document.getElementById("yslModalClose");
