@@ -42,8 +42,7 @@ var products = {
     {name:"FG330020",sku:"FG330020",img:"images/chairs/FG330020.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
     {name:"FG330040",sku:"FG330040",img:"images/chairs/FG330040.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
     {name:"FG330010",sku:"FG330010",img:"images/relaxing/FG330010.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:""},
-  ],
-  dining: [
+  ],dining: [
     {name:"4-Seater Dining Set",sku:"4-Seater Dining Set",img:"images/Dining/page_24_img_01.jpg",material:"Solid Wood + MDF table top",color:"Various",dimensions:"",desc:""},
     {name:"2 Tone Dining Sets",sku:"2 Tone Dining Sets",img:"images/Dining/page_24_img_02.jpg",material:"Solid pine + MDF table top",color:"Various",dimensions:"",desc:""},
     {name:"Marble-Top Dining Set",sku:"Marble-Top Dining Set",img:"images/Dining/page_24_img_03.jpg",material:"Marble + Stainless Steel",color:"Various",dimensions:"",desc:""},
@@ -52,8 +51,7 @@ var products = {
     {name:"Compact Dining Set",sku:"Compact Dining Set",img:"images/Dining/page_24_img_06.jpg",material:"MDF + Steel Frame",color:"Various",dimensions:"",desc:""},
     {name:"Farmhouse Dining Table",sku:"Farmhouse Dining Table",img:"images/Dining/page_24_img_07.jpg",material:"Reclaimed Wood",color:"Various",dimensions:"",desc:""},
     {name:"Glass Dining Table",sku:"Glass Dining Table",img:"images/Dining/page_24_img_08.jpg",material:"Tempered Glass + Chrome",color:"Various",dimensions:"",desc:""},
-  ],
-  bedsSofas: [
+  ],bedsSofas: [
     {name:"Multi-Function Sofa Bed",sku:"Multi-Function Sofa Bed",img:"images/beds-sofas/multi-function-sofa.jpg",material:"Sofa + Bed + Storage",color:"Various",dimensions:"",desc:""},
     {name:"Multi-Function Bed",sku:"Multi-Function Bed",img:"images/beds-sofas/multi-function-bed.jpg",material:"Sofa + Bed + Storage",color:"Various",dimensions:"",desc:""},
     {name:"Multi-Function Storage",sku:"Multi-Function Storage",img:"images/beds-sofas/multi-function-storage.jpg",material:"Sofa + Bed + Storage",color:"Various",dimensions:"",desc:""},
@@ -63,8 +61,7 @@ var products = {
     {name:"Chair sofa",sku:"Chair sofa",img:"images/beds-sofas/bed position.jpg",material:"metal leg with PU cushion",color:"Various",dimensions:"",desc:""},
     {name:"Twin Bed Frame",sku:"Twin Bed Frame",img:"images/beds-sofas/bed positon2.jpg",material:"metal leg with PU cushion",color:"Various",dimensions:"",desc:""},
     {name:"Chaise Sofa",sku:"Chaise Sofa",img:"images/beds-sofas/sofa position.jpg",material:"metal leg with PU cushion",color:"Various",dimensions:"",desc:""},
-  ],
-  upholstery: [
+  ],upholstery: [
     {name:"3-Seater Sofa",sku:"3-Seater Sofa",img:"images/upholstery/3s.jpg",material:"Linen Fabric + Solid Wood",color:"Various",dimensions:"",desc:""},
     {name:"Recliner",sku:"Recliner",img:"images/upholstery/bigboy.jpg",material:"PU leather",color:"Various",dimensions:"",desc:""},
     {name:"Recliner collection",sku:"Recliner collection",img:"images/upholstery/Nordic.jpg",material:"PU leather",color:"Various",dimensions:"",desc:""},
@@ -76,8 +73,7 @@ var products = {
     {name:"Sofa Bed with wood trim",sku:"Sofa Bed with wood trim",img:"images/upholstery/page_08_img_05.jpg",material:"Fabric + Wood Frame",color:"Various",dimensions:"",desc:""},
     {name:"Accent Chair",sku:"Accent Chair",img:"images/upholstery/page_12_img_01.jpg",material:"Fabric + Metal Legs",color:"Various",dimensions:"",desc:""},
     {name:"arm chair set 2",sku:"arm chair set 2",img:"images/upholstery/page_12_img_02.jpg",material:"Chenille Fabric + foam",color:"Various",dimensions:"",desc:""},
-  ],
-  woodPaper: [
+  ],woodPaper: [
     {name:"Home Collection",sku:"Home Collection",img:"images/Wood_Paper_Laminated/page_25_img_01.jpg",material:"MDF + Paper Laminate",color:"Various",dimensions:"",desc:""},
     {name:"Computer Desk",sku:"Computer Desk",img:"images/Wood_Paper_Laminated/page_25_img_02.jpg",material:"MDF + Paper Laminate",color:"Various",dimensions:"",desc:""},
     {name:"Table Sets",sku:"Table Sets",img:"images/Wood_Paper_Laminated/page_25_img_03.jpg",material:"MDF + Steel Frame",color:"Various",dimensions:"",desc:""},
@@ -85,16 +81,14 @@ var products = {
     {name:"Writing Desk",sku:"Writing Desk",img:"images/Wood_Paper_Laminated/page_25_img_05.jpg",material:"MDF + Paper Laminate",color:"Various",dimensions:"",desc:""},
     {name:"5 Drawers Chest",sku:"5 Drawers Chest",img:"images/Wood_Paper_Laminated/page_26_img_01.jpg",material:"MDF + Paper Laminate",color:"Various",dimensions:"",desc:""},
     {name:"Chest of Drawers",sku:"Chest of Drawers",img:"images/Wood_Paper_Laminated/page_26_img_02.jpg",material:"MDF + Paper Laminate",color:"Various",dimensions:"",desc:""},
-  ],
-  woodSolid: [
+  ],woodSolid: [
     {name:"Solid Oak Dining Table",sku:"Solid Oak Dining Table",img:"images/Wood_Solid_Veneer/page_27_img_01.jpg",material:"Solid Oak Wood",color:"Various",dimensions:"",desc:""},
     {name:"Walnut Coffee Table",sku:"Walnut Coffee Table",img:"images/Wood_Solid_Veneer/page_27_img_02.jpg",material:"Solid Walnut Wood",color:"Various",dimensions:"",desc:""},
     {name:"Mahogany Console Table",sku:"Mahogany Console Table",img:"images/Wood_Solid_Veneer/page_27_img_03.jpg",material:"Mahogany Wood + Veneer",color:"Various",dimensions:"",desc:""},
     {name:"Teak Sideboard",sku:"Teak Sideboard",img:"images/Wood_Solid_Veneer/page_27_img_04.jpg",material:"Teak Wood + Veneer",color:"Various",dimensions:"",desc:""},
     {name:"Cherry Wood Desk",sku:"Cherry Wood Desk",img:"images/Wood_Solid_Veneer/page_27_img_05.jpg",material:"Cherry Wood + Veneer",color:"Various",dimensions:"",desc:""},
     {name:"Rosewood Display Cabinet",sku:"Rosewood Display Cabinet",img:"images/Wood_Solid_Veneer/page_27_img_06.jpg",material:"Rosewood + Glass",color:"Various",dimensions:"",desc:""},
-  ],
-  relaxing: [
+  ],relaxing: [
     {name:"FG113012",sku:"FG113012",img:"images/relaxing/FG113012.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
     {name:"FG113022",sku:"FG113022",img:"images/relaxing/FG113022.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
     {name:"FG113032",sku:"FG113032",img:"images/relaxing/FG113032.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:""},
