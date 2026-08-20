@@ -131,18 +131,27 @@ var currentCategory = document.body.dataset.category || "";
 var overlay = null;
 var closeBtn = null;
 
-function initModal() {
+function ensureModal() {
   if (overlay) return;
   overlay = document.createElement("div");
   overlay.id = "yslModalOverlay";
   overlay.className = "modal-overlay";
-  overlay.innerHTML = "<button class=\"modal-close\" id=\"yslModalClose\">&times;</button><div class=\"modal-image-wrap\"><img id=\"yslModalImg\" src=\"\" alt=\"\"/></div><div class=\"modal-body\"><h2 id=\"yslModalName\"></h2><div class=\"modal-sku\" id=\"yslModalSku\"></div><table><tbody id=\"yslModalSpecs\"></tbody></table><p class=\"modal-desc\" id=\"yslModalDesc\"></p><a href=\"#contact\" class=\"modal-cta\" id=\"yslModalCTA\">Inquire About This Product</a></div>";
+  overlay.innerHTML = ""
+    + '<button class="modal-close" id="yslModalClose">&times;</button>'
+    + '<div class="modal-image-wrap"><img id="yslModalImg" src="" alt=""></div>'
+    + '<div class="modal-body">'
+    + '<h2 id="yslModalName"></h2>'
+    + '<div class="modal-sku" id="yslModalSku"></div>'
+    + '<table><tbody id="yslModalSpecs"></tbody></table>'
+    + '<p class="modal-desc" id="yslModalDesc"></p>'
+    + '<a href="#contact" class="modal-cta" id="yslModalCTA">Inquire About This Product</a>'
+    + '</div>';
   document.body.appendChild(overlay);
   closeBtn = document.getElementById("yslModalClose");
 }
 
 function openModal(product) {
-  initModal();
+  ensureModal();
   document.getElementById("yslModalImg").src = product.img;
   document.getElementById("yslModalImg").alt = product.name;
   document.getElementById("yslModalName").textContent = product.name;
@@ -160,6 +169,10 @@ function closeModal() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
+  ensureModal();
+  if (closeBtn) closeBtn.addEventListener("click", closeModal);
+  if (overlay) overlay.addEventListener("click", function(e) { if (e.target === overlay) closeModal(); });
+  document.addEventListener("keydown", function(e) { if (e.key === "Escape") closeModal(); });
   if (currentCategory && products[currentCategory]) {
     var cards = document.querySelectorAll(".card");
     var items = products[currentCategory];
@@ -169,10 +182,5 @@ document.addEventListener("DOMContentLoaded", function() {
       })(cards[i], items[i]);
     }
   }
-  overlay = document.getElementById("yslModalOverlay");
-  closeBtn = document.getElementById("yslModalClose");
-  if (closeBtn) closeBtn.addEventListener("click", closeModal);
-  if (overlay) overlay.addEventListener("click", function(e) { if (e.target === overlay) closeModal(); });
-  document.addEventListener("keydown", function(e) { if (e.key === "Escape") closeModal(); });
 });
 })();
