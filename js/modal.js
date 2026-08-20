@@ -54,9 +54,6 @@ var products = {
     {name:"Glass Dining Table",sku:"Glass Dining Table",img:"images/Dining/page_24_img_08.jpg",material:"Tempered Glass + Chrome",color:"Various",dimensions:"",desc:""},
   ],
   bedsSofas: [
-    {name:"Multi-Function Sofa Bed",sku:"Multi-Function Sofa Bed",img:"images/beds-sofas/multi-function-sofa.jpg",material:"Sofa + Bed + Storage",color:"Various",dimensions:"",desc:""},
-    {name:"Multi-Function Bed",sku:"Multi-Function Bed",img:"images/beds-sofas/multi-function-bed.jpg",material:"Sofa + Bed + Storage",color:"Various",dimensions:"",desc:""},
-    {name:"Multi-Function Storage",sku:"Multi-Function Storage",img:"images/beds-sofas/multi-function-storage.jpg",material:"Sofa + Bed + Storage",color:"Various",dimensions:"",desc:""},
     {name:"King Size Bed",sku:"King Size Bed",img:"images/beds-sofas/bed.jpg",material:"Fabric + Metal Frame",color:"Various",dimensions:"",desc:""},
     {name:"Sofa Bed",sku:"Sofa Bed",img:"images/beds-sofas/sofabed with storage.jpg",material:"Fabric + Metal Mechanism",color:"Various",dimensions:"",desc:""},
     {name:"2-Seater Sofa Bed",sku:"2-Seater Sofa Bed",img:"images/beds-sofas/2s sofa bed.jpg",material:"Fabric + extension bed",color:"Various",dimensions:"",desc:""},
