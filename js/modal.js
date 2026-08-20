@@ -1,137 +1,189 @@
-﻿/* ===== YSL Products - Modal & Product Data ===== */
+/* ===== YSL Products - Modal & Product Data ===== */
 (function(){
-  /* ===== Product Database ===== */
   var products = {
     chairs: [
-      { name:"Chair Ottoman", sku:"YDC-001", img:"images/chairs/page_23_img_01.jpg", material:"Solid Wood + Fabric", color:"GreyLight Wood", dimensions:"60x70x85 cm", desc:"Nodic looking Chair with ottoman"  },
-      { name:"Classic Dining Chair with Arm", sku:"YAC-002", img:"images/chairs/page_23_img_02.jpg", material:"metal leg + fabric", color:"Grey", dimensions:"50x55x95 cm", desc:"Metal leg with wood looking heat transfer."  },
-      { name:"Fabric Dining Chair", sku:"YOC-003", img:"images/chairs/page_23_img_03.jpg", material:"Fabric+ metal leg", color:"Black", dimensions:"50x45x90 cm", desc:"Premium office chair with high-back support, padded armrests"  },
-      { name:"Velvet Accent Chair", sku:"YVC-004", img:"images/chairs/page_23_img_04.jpg", material:"Velvet Fabric + Metal Legs", color:"Dark Green", dimensions:"65x60x90cm", desc:"Luxurious velvet accent chair with gold-tone metal legs."  },
-      { name:"Fabric Dining Chair", sku:"YSC-005", img:"images/chairs/page_23_img_05.jpg", material:"Fabric + Metal Legs", color:"Light Grey/Natural", dimensions:"50x45x90 cm", desc:"Minimalist Scandinavian-style dining chair with clean lines."  },
-      { name:"Half moon Chair", sku:"YTC-006", img:"images/chairs/page_23_img_06.jpg", material:"Fabric + Wood Frame", color:"Cream", dimensions:"50x55x95 cm", desc:"Dining chair with Curved back frame"  },
-      { name:"Industrial Bar Stool", sku:"YBS-007", img:"images/chairs/page_23_img_07.jpg", material:"Metal Frame + Wood Seat", color:"Black/Walnut", dimensions:"45x50x120 cm", desc:"Industrial-style bar stool with solid wood seat."  },
-      { name:"Diamond Back Bar Stool", sku:"YEM-008", img:"images/chairs/page_23_img_08.jpg", material:"Metal leg + Fabric", color:"Black", dimensions:"50x50x120 cm", desc:"Metal leg with wood looking heat transfer."  },
-      { name:"Mid-Century Dining Chair", sku:"YML-009", img:"images/chairs/page_23_img_09.jpg", material:"Metal leg with hard PU", color:"Brown", dimensions:"50x55x90 cm", desc:"Iconic mid-century Dining Chair with metal leg"  },
-      { name:"Arm Dining Chair", sku:"YFC-010", img:"images/chairs/page_23_img_10.jpg", material:"Metal Leg with tufted back", color:"Grey", dimensions:"55x60x95 cm", desc:"Arm Chair with Tufted button back cushion"  },
-      { name:"Swivel Armchair", sku:"YRA-011", img:"images/chairs/page_23_img_11.jpg", material:"Fabric + Metal Legs", color:"Grey", dimensions:"55x60x95cm", desc:"Swivel arm chair "  },
-      { name:"Diamoand arm chair", sku:"YKC-012", img:"images/chairs/page_23_img_12.jpg", material:"Fabric + metal legs", color:"Grey", dimensions:"55 x 60 x 95Cm", desc:"Tappered leg with swivel function"  },
-      { name:"Banquet Chair", sku:"YBC-013", img:"images/chairs/page_23_img_13.jpg", material:"Steel Frame + Fabric", color:"Gold/Cream", dimensions:"48x52x92 cm", desc:"Elegant banquet chair with padded seat and decorative metal frame."  },
-      { name:"Staioned Dining chair", sku:"YRC-014", img:"images/chairs/page_23_img_14.jpg", material:"metal leg", color:"Metal", dimensions:"48x52x92 cm", desc:"Classic Dining Chair with Tufted design" }
+      {name:"Chair Ottoman",sku:"Chair Ottoman",img:"images/chairs/page_23_img_01.jpg",material:"Solid Wood + Fabric",color:"Various",dimensions:"",desc:"},
+      {name:"Classic Dining Chair with Arm",sku:"Classic Dining Chair with Arm",img:"images/chairs/page_23_img_02.jpg",material:"metal leg + fabric",color:"Various",dimensions:"",desc:"},
+      {name:"Fabric Dining Chair",sku:"Fabric Dining Chair",img:"images/chairs/page_23_img_03.jpg",material:"Fabric+ metal leg",color:"Various",dimensions:"",desc:"},
+      {name:"Velvet Accent Chair",sku:"Velvet Accent Chair",img:"images/chairs/page_23_img_04.jpg",material:"Velvet Fabric + Metal Legs",color:"Various",dimensions:"",desc:"},
+      {name:"Fabric Dining Chair",sku:"Fabric Dining Chair",img:"images/chairs/page_23_img_05.jpg",material:"Fabric + Metal Legs",color:"Various",dimensions:"",desc:"},
+      {name:"Half moon Chair",sku:"Half moon Chair",img:"images/chairs/page_23_img_06.jpg",material:"Fabric + Wood Frame",color:"Various",dimensions:"",desc:"},
+      {name:"Industrial Bar Stool",sku:"Industrial Bar Stool",img:"images/chairs/page_23_img_07.jpg",material:"Metal Frame + Wood Seat",color:"Various",dimensions:"",desc:"},
+      {name:"Diamond Back Bar Stool",sku:"Diamond Back Bar Stool",img:"images/chairs/page_23_img_08.jpg",material:"Metal leg + Fabric",color:"Various",dimensions:"",desc:"},
+      {name:"Mid-Century Dining Chair",sku:"Mid-Century Dining Chair",img:"images/chairs/page_23_img_09.jpg",material:"Metal leg with hard PU",color:"Various",dimensions:"",desc:"},
+      {name:"Arm Dining Chair",sku:"Arm Dining Chair",img:"images/chairs/page_23_img_10.jpg",material:"Metal Leg with tufted back",color:"Various",dimensions:"",desc:"},
+      {name:"Swivel Armchair",sku:"Swivel Armchair",img:"images/chairs/page_23_img_11.jpg",material:"Fabric + Metal Legs",color:"Various",dimensions:"",desc:"},
+      {name:"Diamoand arm chair",sku:"Diamoand arm chair",img:"images/chairs/page_23_img_12.jpg",material:"Fabric + metal legs",color:"Various",dimensions:"",desc:"},
+      {name:"Banquet Chair",sku:"Banquet Chair",img:"images/chairs/page_23_img_13.jpg",material:"Steel Frame + Fabric",color:"Various",dimensions:"",desc:"},
+      {name:"Staioned Dining chair",sku:"Staioned Dining chair",img:"images/chairs/page_23_img_14.jpg",material:"metal leg",color:"Various",dimensions:"",desc:"},
+      {name:"FG120084",sku:"FG120084",img:"images/chairs/FG120084.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG140094",sku:"FG140094",img:"images/chairs/FG140094.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG140101",sku:"FG140101",img:"images/chairs/FG140101.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG140113",sku:"FG140113",img:"images/chairs/FG140113.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG140122",sku:"FG140122",img:"images/chairs/FG140122.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG140132",sku:"FG140132",img:"images/chairs/FG140132.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG140141",sku:"FG140141",img:"images/chairs/FG140141.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG140154",sku:"FG140154",img:"images/chairs/FG140154.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG140164",sku:"FG140164",img:"images/chairs/FG140164.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG140174",sku:"FG140174",img:"images/chairs/FG140174.jpg",material:"Steel Frame + Plywood + Manual Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG140211",sku:"FG140211",img:"images/chairs/FG140211.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG140231",sku:"FG140231",img:"images/chairs/FG140231.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG140241",sku:"FG140241",img:"images/chairs/FG140241.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG140272",sku:"FG140272",img:"images/chairs/FG140272.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG310021",sku:"FG310021",img:"images/chairs/FG310021.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG310022",sku:"FG310022",img:"images/chairs/FG310022.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG310031",sku:"FG310031",img:"images/chairs/FG310031.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG310042",sku:"FG310042",img:"images/chairs/FG310042.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG310052",sku:"FG310052",img:"images/chairs/FG310052.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG310062",sku:"FG310062",img:"images/chairs/FG310062.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG310072",sku:"FG310072",img:"images/chairs/FG310072.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG310082",sku:"FG310082",img:"images/chairs/FG310082.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG310092",sku:"FG310092",img:"images/chairs/FG310092.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG320011",sku:"FG320011",img:"images/chairs/FG320011.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG330020",sku:"FG330020",img:"images/chairs/FG330020.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG330040",sku:"FG330040",img:"images/chairs/FG330040.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
+      {name:"FG330010",sku:"FG330010",img:"images/relaxing/FG330010.jpg",material:"Steel Frame + Plywood",color:"Various",dimensions:"",desc:"},
     ],
     dining: [
-      { name:"4-Seater Dining Set", sku:"YDS-001", img:"images/Dining/page_24_img_01.jpg", material:"Solid Wood + MDF table top", color:"Nature white", dimensions:"145x 75  x75 cm", desc:"Complete 4-seater dining set "  },
-      { name:"2 Tone Dining Sets", sku:"YDT-002", img:"images/Dining/page_24_img_02.jpg", material:"Solid pine + MDF table top", color:"Nature white", dimensions:"1118 x75x73.5 cm", desc:"2 tone dining sets with 4 chairs"  },
-      { name:"Marble-Top Dining Set", sku:"YDM-003", img:"images/Dining/page_24_img_03.jpg", material:"Marble + Stainless Steel", color:"White/Grey", dimensions:"90x90x75 cm", desc:"Luxurious marble-top dining set with stainless steel base."  },
-      { name:"Square Pedestal Table", sku:"YRT-004", img:"images/Dining/page_24_img_04.jpg", material:"Metal leg with MDF top", color:"White", dimensions:"100x100x75 cm", desc:"square pedestal table perfect for intimate dining spaces."  },
-      { name:"Rectangular 6 chair dining set", sku:"YSB-005", img:"images/Dining/page_24_img_05.jpg", material:"Metal leg with Tarrecado", color:"Grey", dimensions:"160x100x75 cm", desc:"6 chair dining set"  },
-      { name:"Compact Dining Set", sku:"YCD-006", img:"images/Dining/page_24_img_06.jpg", material:"MDF + Steel Frame", color:"White/Silver", dimensions:"120x80x75 cm", desc:"Space-saving dining set ideal for apartments and small spaces."  },
-      { name:"Farmhouse Dining Table", sku:"YFT-007", img:"images/Dining/page_24_img_07.jpg", material:"Reclaimed Wood", color:"Natural", dimensions:"90x90x75 cm", desc:"Rustic farmhouse dining table made from reclaimed wood."  },
-      { name:"Glass Dining Table", sku:"YGT-008", img:"images/Dining/page_24_img_08.jpg", material:"Tempered Glass + Chrome", color:"Clear/Chrome", dimensions:"140x80x75 cm", desc:"Modern glass-top dining table with chrome legs." }
-    ],
-    upholstery: [
-      { name:"3-Seater Sofa", sku:"YUS-001", img:"images/upholstery/3s.jpg", material:"Linen Fabric + Solid Wood", color:"Light Grey", dimensions:"210x85x85 cm", desc:"Spacious 3-seater sofa with high-density foam cushions."  },
-      { name:"Recliner", sku:"YUA-002", img:"images/upholstery/bigboy.jpg", material:"PU leather", color:"Teal", dimensions:"87.5 x 98.0 x 104.0 cm", desc:"Recliner with 3 positions"  },
-      { name:"Recliner collection", sku:"YUN-003", img:"images/upholstery/Nordic.jpg", material:"PU leather", color:"Grey", dimensions:"200.5 x 106.0 x 107.5", desc:"Recliner collection"  },
-      { name:"Chesterfield Sofa", sku:"YUC-004", img:"images/upholstery/page_06_img_01.jpg", material:"Barcley Fabric 2 seats + chairs", color:"Beige", dimensions:"240x90x80 cm", desc:"Upholstery Modular"  },
-      { name:"2.5 seatsl Sofa", sku:"YUS-005", img:"images/upholstery/page_06_img_02.jpg", material:"Fabric Blend + Wood Frame", color:"Beige", dimensions:"220x120x85 cm", desc:"2.5 seats sectional sofa with chaise lounge."  },
-      { name:"Sectional Sofa", sku:"YUO-006", img:"images/upholstery/page_06_img_04.jpg", material:"Fabric Blend + Wood Frame", color:"Grey", dimensions:"280 x 180 x 85cm", desc:"L-shaped sectional sofa with chaise lounge."  },
-      { name:"Sectional Sofa", sku:"YUW-007", img:"images/upholstery/page_08_img_01.jpg", material:"Fabric + Wood Frame", color:"Navy Blue", dimensions:"240x180x90 cm", desc:"L-shaped sectional sofa with chaise lounge."  },
-      { name:"2.5 seatsl Sofa", sku:"YUP-008", img:"images/upholstery/page_08_img_02.jpg", material:"Fabric Blend + Wood Frame", color:"Brown", dimensions:"220x120x85 cm", desc:"Modern 2.5 seats sofa"  },
-      { name:"Sofa Bed with wood trim", sku:"YUD-009", img:"images/upholstery/page_08_img_05.jpg", material:"Fabric + Wood Frame", color:"Grey/Walnut", dimensions:"220x110x88 cm", desc:"2 seats sofa with Clay-Clark function"  },
-      { name:"Accent Chair", sku:"YUA-010", img:"images/upholstery/page_12_img_01.jpg", material:"Fabric + Metal Legs", color:"Blush Pink", dimensions:"180x70x88 cm", desc:"Stylish accent chair with slim metal legs."  },
-      { name:"arm chair set 2", sku:"YUL-011", img:"images/upholstery/page_12_img_02.jpg", material:"Chenille Fabric + foam", color:"Sage Green", dimensions:"80x80x80 cm", desc:"\"Cozy 2-seater loveseat, compressed packing\"" }
+      {name:"4-Seater Dining Set",sku:"4-Seater Dining Set",img:"images/Dining/page_24_img_01.jpg",material:"Solid Wood + MDF table top",color:"Various",dimensions:"",desc:"},
+      {name:"2 Tone Dining Sets",sku:"2 Tone Dining Sets",img:"images/Dining/page_24_img_02.jpg",material:"Solid pine + MDF table top",color:"Various",dimensions:"",desc:"},
+      {name:"Marble-Top Dining Set",sku:"Marble-Top Dining Set",img:"images/Dining/page_24_img_03.jpg",material:"Marble + Stainless Steel",color:"Various",dimensions:"",desc:"},
+      {name:"Square Pedestal Table",sku:"Square Pedestal Table",img:"images/Dining/page_24_img_04.jpg",material:"Metal leg with MDF top",color:"Various",dimensions:"",desc:"},
+      {name:"Rectangular 6 chair dining set",sku:"Rectangular 6 chair dining set",img:"images/Dining/page_24_img_05.jpg",material:"Metal leg with Tarrecado",color:"Various",dimensions:"",desc:"},
+      {name:"Compact Dining Set",sku:"Compact Dining Set",img:"images/Dining/page_24_img_06.jpg",material:"MDF + Steel Frame",color:"Various",dimensions:"",desc:"},
+      {name:"Farmhouse Dining Table",sku:"Farmhouse Dining Table",img:"images/Dining/page_24_img_07.jpg",material:"Reclaimed Wood",color:"Various",dimensions:"",desc:"},
+      {name:"Glass Dining Table",sku:"Glass Dining Table",img:"images/Dining/page_24_img_08.jpg",material:"Tempered Glass + Chrome",color:"Various",dimensions:"",desc:"},
     ],
     bedsSofas: [
-      { name:"King Size Bed with tufted headboard", sku:"YQB-001", img:"images/beds-sofas/bed.jpg", material:"Uphosltery Frame with Fabric", color:"Grey", dimensions:"205x 217x156 cm", desc:"Elegant King-size bed with tall upholstered headboard."  },
-      { name:"Sofa Bed with Storage", sku:"YSB-002", img:"images/beds-sofas/sofabed with storage.jpg", material:"Fabric + Metal Mechanism", color:"Beige", dimensions:"225x152x88 cm", desc:"Multi-functional sofa bed with built-in storage compartment."  },
-      { name:"2-Seater Sofa Bed", sku:"YSS-003", img:"images/beds-sofas/2s sofa bed.jpg", material:"Fabrci + extension bed + clayclark back", color:"Beige", dimensions:"160x85x85 cm", desc:"Compact 2-seater sofa bed with Clau-clark mechanism."  },
-      { name:"Chair sofa", sku:"YWB-004", img:"images/beds-sofas/bed position.jpg", material:"metal leg with PU cushion", color:"black", dimensions:"120x175x90 cm", desc:"Chromed leg with tufted PU cushion"  },
-      { name:"Twin Bed Frame", sku:"YTB-005", img:"images/beds-sofas/bed positon2.jpg", material:"metal leg with PU cushion", color:"black", dimensions:"120x175x90 cm", desc:"Chromed leg with tufted PU cushion"  },
-      { name:"Chaise Sofa", sku:"YCS-006", img:"images/beds-sofas/sofa position.jpg", material:"metal leg with PU cushion", color:"black", dimensions:"120x175x90 cm", desc:"Chromed leg with tufted PU cushion" }
+      {name:"Multi-Function Sofa Bed",sku:"Multi-Function Sofa Bed",img:"images/beds-sofas/multi-function-sofa.jpg",material:"Sofa + Bed + Storage",color:"Various",dimensions:"",desc:"},
+      {name:"Multi-Function Bed",sku:"Multi-Function Bed",img:"images/beds-sofas/multi-function-bed.jpg",material:"Sofa + Bed + Storage",color:"Various",dimensions:"",desc:"},
+      {name:"Multi-Function Storage",sku:"Multi-Function Storage",img:"images/beds-sofas/multi-function-storage.jpg",material:"Sofa + Bed + Storage",color:"Various",dimensions:"",desc:"},
+      {name:"King Size Bed",sku:"King Size Bed",img:"images/beds-sofas/bed.jpg",material:"Fabric + Metal Frame",color:"Various",dimensions:"",desc:"},
+      {name:"Sofa Bed",sku:"Sofa Bed",img:"images/beds-sofas/sofabed with storage.jpg",material:"Fabric + Metal Mechanism",color:"Various",dimensions:"",desc:"},
+      {name:"2-Seater Sofa Bed",sku:"2-Seater Sofa Bed",img:"images/beds-sofas/2s sofa bed.jpg",material:"Fabric + extension bed",color:"Various",dimensions:"",desc:"},
+      {name:"Chair sofa",sku:"Chair sofa",img:"images/beds-sofas/bed position.jpg",material:"metal leg with PU cushion",color:"Various",dimensions:"",desc:"},
+      {name:"Twin Bed Frame",sku:"Twin Bed Frame",img:"images/beds-sofas/bed positon2.jpg",material:"metal leg with PU cushion",color:"Various",dimensions:"",desc:"},
+      {name:"Chaise Sofa",sku:"Chaise Sofa",img:"images/beds-sofas/sofa position.jpg",material:"metal leg with PU cushion",color:"Various",dimensions:"",desc:"},
+    ],
+    upholstery: [
+      {name:"3-Seater Sofa",sku:"3-Seater Sofa",img:"images/upholstery/3s.jpg",material:"Linen Fabric + Solid Wood",color:"Various",dimensions:"",desc:"},
+      {name:"Recliner",sku:"Recliner",img:"images/upholstery/bigboy.jpg",material:"PU leather",color:"Various",dimensions:"",desc:"},
+      {name:"Recliner collection",sku:"Recliner collection",img:"images/upholstery/Nordic.jpg",material:"PU leather",color:"Various",dimensions:"",desc:"},
+      {name:"Chesterfield Sofa",sku:"Chesterfield Sofa",img:"images/upholstery/page_06_img_01.jpg",material:"Barcley Fabric 2 seats + chairs",color:"Various",dimensions:"",desc:"},
+      {name:"2.5 seatsl Sofa",sku:"2.5 seatsl Sofa",img:"images/upholstery/page_06_img_02.jpg",material:"Fabric Blend + Wood Frame",color:"Various",dimensions:"",desc:"},
+      {name:"Sectional Sofa",sku:"Sectional Sofa",img:"images/upholstery/page_06_img_04.jpg",material:"Fabric Blend + Wood Frame",color:"Various",dimensions:"",desc:"},
+      {name:"Sectional Sofa",sku:"Sectional Sofa",img:"images/upholstery/page_08_img_01.jpg",material:"Fabric + Wood Frame",color:"Various",dimensions:"",desc:"},
+      {name:"2.5 seatsl Sofa",sku:"2.5 seatsl Sofa",img:"images/upholstery/page_08_img_02.jpg",material:"Fabric Blend + Wood Frame",color:"Various",dimensions:"",desc:"},
+      {name:"Sofa Bed with wood trim",sku:"Sofa Bed with wood trim",img:"images/upholstery/page_08_img_05.jpg",material:"Fabric + Wood Frame",color:"Various",dimensions:"",desc:"},
+      {name:"Accent Chair",sku:"Accent Chair",img:"images/upholstery/page_12_img_01.jpg",material:"Fabric + Metal Legs",color:"Various",dimensions:"",desc:"},
+      {name:"arm chair set 2",sku:"arm chair set 2",img:"images/upholstery/page_12_img_02.jpg",material:"Chenille Fabric + foam",color:"Various",dimensions:"",desc:"},
     ],
     woodPaper: [
-      { name:"TV Entertainment Unit", sku:"YTV-001", img:"images/Wood_Paper_Laminated/page_25_img_01.jpg", material:"MDF + Paper Laminate", color:"White", dimensions:"180x40x50 cm", desc:"Modern TV entertainment unit with cable management and storage cabinets."  },
-      { name:"Bookshelf", sku:"YBS-002", img:"images/Wood_Paper_Laminated/page_25_img_02.jpg", material:"MDF + Paper Laminate", color:"Oak Pattern", dimensions:"80x30x180 cm", desc:"5-tier bookshelf with adjustable shelves."  },
-      { name:"Computer Desk", sku:"YCD-003", img:"images/Wood_Paper_Laminated/page_25_img_03.jpg", material:"MDF + Steel Frame", color:"White", dimensions:"120x60x75 cm", desc:"Modern computer desk with cable management and keyboard tray."  },
-      { name:"Shoe Cabinet", sku:"YSC-004", img:"images/Wood_Paper_Laminated/page_25_img_04.jpg", material:"MDF + Paper Laminate", color:"White", dimensions:"80x30x100 cm", desc:"Slim shoe cabinet with ventilated doors and rubber shelving."  },
-      { name:"Coffee Table", sku:"YCT-005", img:"images/Wood_Paper_Laminated/page_25_img_05.jpg", material:"MDF + Paper Laminate", color:"Oak", dimensions:"100x60x45 cm", desc:"Modern coffee table with smooth laminate surface and metal legs."  },
-      { name:"Wardrobe", sku:"YWR-006", img:"images/Wood_Paper_Laminated/page_26_img_01.jpg", material:"MDF + Paper Laminate", color:"White", dimensions:"120x55x200 cm", desc:"2-door wardrobe with hanging rail and shelf."  },
-      { name:"Chest of Drawers", sku:"YDR-007", img:"images/Wood_Paper_Laminated/page_26_img_02.jpg", material:"MDF + Paper Laminate", color:"White", dimensions:"80x45x90 cm", desc:"5-drawer chest with smooth metal runners." }
+      {name:"Home Collection",sku:"Home Collection",img:"images/Wood_Paper_Laminated/page_25_img_01.jpg",material:"MDF + Paper Laminate",color:"Various",dimensions:"",desc:"},
+      {name:"Computer Desk",sku:"Computer Desk",img:"images/Wood_Paper_Laminated/page_25_img_02.jpg",material:"MDF + Paper Laminate",color:"Various",dimensions:"",desc:"},
+      {name:"Table Sets",sku:"Table Sets",img:"images/Wood_Paper_Laminated/page_25_img_03.jpg",material:"MDF + Steel Frame",color:"Various",dimensions:"",desc:"},
+      {name:"Console Table",sku:"Console Table",img:"images/Wood_Paper_Laminated/page_25_img_04.jpg",material:"MDF + Paper Laminate",color:"Various",dimensions:"",desc:"},
+      {name:"Writing Desk",sku:"Writing Desk",img:"images/Wood_Paper_Laminated/page_25_img_05.jpg",material:"MDF + Paper Laminate",color:"Various",dimensions:"",desc:"},
+      {name:"5 Drawers Chest",sku:"5 Drawers Chest",img:"images/Wood_Paper_Laminated/page_26_img_01.jpg",material:"MDF + Paper Laminate",color:"Various",dimensions:"",desc:"},
+      {name:"Chest of Drawers",sku:"Chest of Drawers",img:"images/Wood_Paper_Laminated/page_26_img_02.jpg",material:"MDF + Paper Laminate",color:"Various",dimensions:"",desc:"},
     ],
     woodSolid: [
-      { name:"Solid Oak Dining Table", sku:"YSO-001", img:"images/Wood_Solid_Veneer/page_27_img_01.jpg", material:"Solid Oak Wood", color:"Natural Oak", dimensions:"180x90x78 cm", desc:"Premium solid oak dining table with natural grain finish."  },
-      { name:"Walnut Coffee Table", sku:"YWC-002", img:"images/Wood_Solid_Veneer/page_27_img_02.jpg", material:"Solid Walnut Wood", color:"Dark Walnut", dimensions:"130x70x42 cm", desc:"Handcrafted walnut coffee table with live edge design."  },
-      { name:"Mahogany Console Table", sku:"YMC-003", img:"images/Wood_Solid_Veneer/page_27_img_03.jpg", material:"Mahogany Wood + Veneer", color:"Mahogany", dimensions:"140x35x80 cm", desc:"Elegant mahogany console table with carved legs and drawer."  },
-      { name:"Teak Sideboard", sku:"YTS-004", img:"images/Wood_Solid_Veneer/page_27_img_04.jpg", material:"Teak Wood + Veneer", color:"Teak Brown", dimensions:"160x45x80 cm", desc:"Premium teak sideboard with 3 doors and adjustable shelves."  },
-      { name:"Cherry Wood Desk", sku:"YCD-005", img:"images/Wood_Solid_Veneer/page_27_img_05.jpg", material:"Cherry Wood + Veneer", color:"Cherry", dimensions:"140x65x76 cm", desc:"Executive desk crafted from cherry wood with leather inlay top."  },
-      { name:"Rosewood Display Cabinet", sku:"YRC-006", img:"images/Wood_Solid_Veneer/page_27_img_06.jpg", material:"Rosewood + Glass", color:"Rosewood", dimensions:"90x40x180 cm", desc:"Elegant display cabinet with glass doors and LED lighting." }
+      {name:"Solid Oak Dining Table",sku:"Solid Oak Dining Table",img:"images/Wood_Solid_Veneer/page_27_img_01.jpg",material:"Solid Oak Wood",color:"Various",dimensions:"",desc:"},
+      {name:"Walnut Coffee Table",sku:"Walnut Coffee Table",img:"images/Wood_Solid_Veneer/page_27_img_02.jpg",material:"Solid Walnut Wood",color:"Various",dimensions:"",desc:"},
+      {name:"Mahogany Console Table",sku:"Mahogany Console Table",img:"images/Wood_Solid_Veneer/page_27_img_03.jpg",material:"Mahogany Wood + Veneer",color:"Various",dimensions:"",desc:"},
+      {name:"Teak Sideboard",sku:"Teak Sideboard",img:"images/Wood_Solid_Veneer/page_27_img_04.jpg",material:"Teak Wood + Veneer",color:"Various",dimensions:"",desc:"},
+      {name:"Cherry Wood Desk",sku:"Cherry Wood Desk",img:"images/Wood_Solid_Veneer/page_27_img_05.jpg",material:"Cherry Wood + Veneer",color:"Various",dimensions:"",desc:"},
+      {name:"Rosewood Display Cabinet",sku:"Rosewood Display Cabinet",img:"images/Wood_Solid_Veneer/page_27_img_06.jpg",material:"Rosewood + Glass",color:"Various",dimensions:"",desc:"},
+    ],
+    relaxing: [
+      {name:"FG113012",sku:"FG113012",img:"images/relaxing/FG113012.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG113022",sku:"FG113022",img:"images/relaxing/FG113022.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG113032",sku:"FG113032",img:"images/relaxing/FG113032.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG113042",sku:"FG113042",img:"images/relaxing/FG113042.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG113052",sku:"FG113052",img:"images/relaxing/FG113052.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"CH-255099P2",sku:"CH-255099P2",img:"images/relaxing/CH-255099P2.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG113102",sku:"FG113102",img:"images/relaxing/FG113102.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG136061",sku:"FG136061",img:"images/relaxing/FG136061.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"CH-253085L2",sku:"CH-253085L2",img:"images/relaxing/CH-253085L2.jpg",material:"Steel Frame + Plywood + Manual Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG136072",sku:"FG136072",img:"images/relaxing/FG136072.jpg",material:"Steel Frame + Plywood + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"CH-253109L2",sku:"CH-253109L2",img:"images/relaxing/CH-253109L2.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG136121MH",sku:"FG136121MH",img:"images/relaxing/FG136121MH.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG136122",sku:"FG136122",img:"images/relaxing/FG136122.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG136131MH",sku:"FG136131MH",img:"images/relaxing/FG136131MH.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG136132",sku:"FG136132",img:"images/relaxing/FG136132.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG136141",sku:"FG136141",img:"images/relaxing/FG136141.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG136141MH",sku:"FG136141MH",img:"images/relaxing/FG136141MH.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG150121",sku:"FG150121",img:"images/relaxing/FG150121.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG150121MH",sku:"FG150121MH",img:"images/relaxing/FG150121MH.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG150128",sku:"FG150128",img:"images/relaxing/FG150128.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG150131",sku:"FG150131",img:"images/relaxing/FG150131.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG150131MH",sku:"FG150131MH",img:"images/relaxing/FG150131MH.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG150138",sku:"FG150138",img:"images/relaxing/FG150138.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG150141",sku:"FG150141",img:"images/relaxing/FG150141.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG150141MH",sku:"FG150141MH",img:"images/relaxing/FG150141MH.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG150148",sku:"FG150148",img:"images/relaxing/FG150148.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG150151",sku:"FG150151",img:"images/relaxing/FG150151.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG150151MH",sku:"FG150151MH",img:"images/relaxing/FG150151MH.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
+      {name:"FG150158",sku:"FG150158",img:"images/relaxing/FG150158.jpg",material:"Steel Frame + Electric Control",color:"Various",dimensions:"",desc:"},
     ],
   };
-
   var currentCategory = document.body.dataset.category || '';
 
-  /* ===== Modal Functions ===== */
   var modalHTML = ''
-    + '<div class="modal-overlay" id="modalOverlay">'
-    + '  <div class="modal-dialog">'
-    + '    <button class="modal-close" id="modalClose">&times;</button>'
-    + '    <div class="modal-image-wrap"><img id="modalImg" src="" alt=""></div>'
-    + '    <div class="modal-body">'
-    + '      <h2 id="modalName"></h2>'
-    + '      <div class="modal-sku" id="modalSku"></div>'
-    + '      <table><tbody id="modalSpecs"></tbody></table>'
-    + '      <p class="modal-desc" id="modalDesc"></p>'
-    + '      <a href="#contact" class="modal-cta" id="modalCTA" onclick="document.getElementById(\'modalOverlay\').classList.remove(\'active\')">Inquire About This Product</a>'
-    + '    </div>'
-    + '  </div>'
-    + '</div>';
+    + "<div class=\"modal-overlay\" id=\"modalOverlay\">"
+    + "  <div class=\"modal-dialog\">"
+    + "    <button class=\"modal-close\" id=\"modalClose\">&times;</button>"
+    + "    <div class=\"modal-image-wrap\"><img id=\"modalImg\" src=\"\" alt=\""></div>"
+    + "    <div class=\"modal-body\">"
+    + "      <h2 id=\"modalName\"></h2>"
+    + "      <div class=\"modal-sku\" id=\"modalSku\"></div>"
+    + "      <table><tbody id=\"modalSpecs\"></tbody></table>"
+    + "      <p class=\"modal-desc\" id=\"modalDesc\"></p>"
+    + "      <a href=\"#contact\" class=\"modal-cta\" id=\"modalCTA\" onclick=\"document.getElementById('modalOverlay').classList.remove('active')\">Inquire About This Product</a>"
+    + "    </div>"
+    + "  </div>"
+    + "</div>";
 
-  document.body.insertAdjacentHTML('beforeend', modalHTML);
-
-  var overlay = document.getElementById('modalOverlay');
-  var closeBtn = document.getElementById('modalClose');
+  document.body.insertAdjacentHTML("beforeend", modalHTML);
+  var overlay = document.getElementById("modalOverlay");
+  var closeBtn = document.getElementById("modalClose");
 
   function openModal(product) {
-    document.getElementById('modalImg').src = product.img;
-    document.getElementById('modalImg').alt = product.name;
-    document.getElementById('modalName').textContent = product.name;
-    document.getElementById('modalSku').textContent = 'SKU: ' + product.sku;
-    var specsHTML = '<tr><td>Material</td><td>' + product.material + '</td></tr>'
-      + '<tr><td>Color</td><td>' + product.color + '</td></tr>'
-      + '<tr><td>Dimensions</td><td>' + product.dimensions + '</td></tr>';
-    document.getElementById('modalSpecs').innerHTML = specsHTML;
-    document.getElementById('modalDesc').textContent = product.desc;
-    overlay.classList.add('active');
-    document.body.style.overflow = 'hidden';
+    document.getElementById("modalImg").src = product.img;
+    document.getElementById("modalImg").alt = product.name;
+    document.getElementById("modalName").textContent = product.name;
+    document.getElementById("modalSku").textContent = "SKU: " + product.sku;
+    var specsHTML = "<tr><td>Material</td><td>" + product.material + "</td></tr>"
+      + "<tr><td>Color</td><td>" + product.color + "</td></tr>"
+      + "<tr><td>Dimensions</td><td>" + product.dimensions + "</td></tr>";
+    document.getElementById("modalSpecs").innerHTML = specsHTML;
+    document.getElementById("modalDesc").textContent = product.desc;
+    overlay.classList.add("active");
+    document.body.style.overflow = "hidden";
   }
 
   function closeModal() {
-    overlay.classList.remove('active');
-    document.body.style.overflow = '';
+    overlay.classList.remove("active");
+    document.body.style.overflow = "";
   }
 
-  closeBtn.addEventListener('click', closeModal);
-  overlay.addEventListener('click', function(e) {
+  closeBtn.addEventListener("click", closeModal);
+  overlay.addEventListener("click", function(e) {
     if (e.target === overlay) closeModal();
   });
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') closeModal();
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") closeModal();
   });
 
-  /* ===== Bind product cards ===== */
   if (currentCategory && products[currentCategory]) {
-    var cards = document.querySelectorAll('.card');
+    var cards = document.querySelectorAll(".card");
     var items = products[currentCategory];
     cards.forEach(function(card, i) {
       if (i < items.length) {
-        card.addEventListener('click', (function(p) {
+        card.addEventListener("click", (function(p) {
           return function() { openModal(p); };
         })(items[i]));
       }
     });
   }
 })();
-
-
-
-
