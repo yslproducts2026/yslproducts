@@ -108,7 +108,7 @@ h2{text-align:center;margin-bottom:6px;font-size:28px;font-weight:800;color:var(
 .modal-body .modal-sku{color:var(--gray);font-size:13px;margin-bottom:14px;font-weight:500}
 .modal-body table{width:100%;border-collapse:collapse;margin:14px 0}
 .modal-body table td{padding:8px 12px;border-bottom:1px solid var(--gray-light);font-size:14px}
-.modal-body table td:first-child{color:#666;width:110px;font-weight:600}
+.modal-body table td:first-child{color:#666;width:110px;font-weight:600}.modal-body table td:last-child{color:#333;font-weight:500}
 .modal-body .modal-desc{color:#555;line-height:1.7;margin:14px 0;font-size:14px}
 .modal-body .modal-cta{display:inline-block;background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:var(--white);padding:11px 26px;border-radius:8px;text-decoration:none;font-weight:700;margin-top:8px;transition:var(--transition);font-size:14px;box-shadow:0 4px 15px rgba(232,106,51,.25)}
 .modal-body .modal-cta:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(232,106,51,.4)}
