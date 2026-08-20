@@ -54,12 +54,12 @@ var P={
     {"name": "Glass Dining Table", "sku": "YGT-008", "img": "images/Dining/page_24_img_08.jpg", "material": "Tempered Glass + Chrome", "color": "White/Clear", "dimensions": "90x90x75 cm", "desc": "Glass top dining table"},
   ],
   bedsSofas:[
-    {"name": "King Size Bed", "sku": "King Size Bed", "img": "images/beds-sofas/bed.jpg", "material": "Fabric + Metal Frame", "color": "Various", "dimensions": "", "desc": ""},
-    {"name": "Sofa Bed", "sku": "Sofa Bed", "img": "images/beds-sofas/sofabed with storage.jpg", "material": "Fabric + Metal Mechanism", "color": "Various", "dimensions": "", "desc": ""},
-    {"name": "2-Seater Sofa Bed", "sku": "2-Seater Sofa Bed", "img": "images/beds-sofas/2s sofa bed.jpg", "material": "Fabric + extension bed", "color": "Various", "dimensions": "", "desc": ""},
-    {"name": "Chair sofa", "sku": "Chair sofa", "img": "images/beds-sofas/bed position.jpg", "material": "metal leg with PU cushion", "color": "Various", "dimensions": "", "desc": ""},
-    {"name": "Twin Bed Frame", "sku": "Twin Bed Frame", "img": "images/beds-sofas/bed positon2.jpg", "material": "metal leg with PU cushion", "color": "Various", "dimensions": "", "desc": ""},
-    {"name": "Chaise Sofa", "sku": "Chaise Sofa", "img": "images/beds-sofas/sofa position.jpg", "material": "metal leg with PU cushion", "color": "Various", "dimensions": "", "desc": ""},
+    {"name": "King Size Bed", "sku": "YKB-001", "img": "images/beds-sofas/bed.jpg", "material": "Fabric + Metal Frame", "color": "Multiple colors", "dimensions": "200x210x150 cm", "desc": "Elegant king-size bed"},
+    {"name": "Sofa Bed", "sku": "YBB-002", "img": "images/beds-sofas/sofabed with storage.jpg", "material": "Fabric + Metal Mechanism", "color": "Beige", "dimensions": "225x152x88 cm", "desc": "Multi-functional sofa bed"},
+    {"name": "2-Seater Sofa Bed", "sku": "YSS-003", "img": "images/beds-sofas/2s sofa bed.jpg", "material": "Fabric + extension bed", "color": "Beige", "dimensions": "160x85x85 cm", "desc": "Compact 2-seater sofa bed"},
+    {"name": "Chair sofa", "sku": "YWB-004", "img": "images/beds-sofas/bed position.jpg", "material": "metal leg with PU cushion", "color": "black", "dimensions": "120x175x90 cm", "desc": "Chromed leg with tufted PU cushion"},
+    {"name": "Twin Bed Frame", "sku": "YTB-005", "img": "images/beds-sofas/bed positon2.jpg", "material": "metal leg with PU cushion", "color": "black", "dimensions": "120x175x90 cm", "desc": "Chromed leg with tufted PU cushion"},
+    {"name": "Chaise Sofa", "sku": "YCS-006", "img": "images/beds-sofas/sofa position.jpg", "material": "metal leg with PU cushion", "color": "black", "dimensions": "120x175x90 cm", "desc": "Chromed leg with tufted PU cushion"},
   ],
   upholstery:[
     {"name": "3-Seater Sofa", "sku": "Y3S-001", "img": "images/upholstery/3s.jpg", "material": "Fabric + Wood Frame", "color": "Multiple colors", "dimensions": "200x90x85 cm", "desc": "3-seater sofa"},
@@ -76,20 +76,20 @@ var P={
   ],
   woodPaper:[
     {"name": "Home Collection", "sku": "Home Collection", "img": "images/Wood_Paper_Laminated/page_25_img_01.jpg", "material": "MDF + Paper Laminate", "color": "Various", "dimensions": "", "desc": ""},
-    {"name": "Computer Desk", "sku": "Computer Desk", "img": "images/Wood_Paper_Laminated/page_25_img_02.jpg", "material": "MDF + Paper Laminate", "color": "Various", "dimensions": "", "desc": ""},
+    {"name": "Computer Desk", "sku": "YCD-003", "img": "images/Wood_Paper_Laminated/page_25_img_02.jpg", "material": "MDF + Steel Frame", "color": "White", "dimensions": "120x60x75 cm", "desc": "Modern computer desk"},
     {"name": "Table Sets", "sku": "Table Sets", "img": "images/Wood_Paper_Laminated/page_25_img_03.jpg", "material": "MDF + Steel Frame", "color": "Various", "dimensions": "", "desc": ""},
     {"name": "Console Tablet", "sku": "Console Tablet", "img": "images/Wood_Paper_Laminated/page_25_img_04.jpg", "material": "MDF + Paper Laminate", "color": "Various", "dimensions": "", "desc": ""},
     {"name": "Writing Desk", "sku": "Writing Desk", "img": "images/Wood_Paper_Laminated/page_25_img_05.jpg", "material": "MDF + Paper Laminate", "color": "Various", "dimensions": "", "desc": ""},
     {"name": "5 Drawers Chest", "sku": "5 Drawers Chest", "img": "images/Wood_Paper_Laminated/page_26_img_01.jpg", "material": "MDF + Paper Laminate", "color": "Various", "dimensions": "", "desc": ""},
-    {"name": "Chest of Drawers", "sku": "Chest of Drawers", "img": "images/Wood_Paper_Laminated/page_26_img_02.jpg", "material": "MDF + Paper Laminate", "color": "Various", "dimensions": "", "desc": ""},
+    {"name": "Chest of Drawers", "sku": "YDR-007", "img": "images/Wood_Paper_Laminated/page_26_img_02.jpg", "material": "MDF + Paper Laminate", "color": "White", "dimensions": "80x45x90 cm", "desc": "5-drawer chest"},
   ],
   woodSolid:[
-    {"name": "Solid Oak Dining Table", "sku": "Solid Oak Dining Table", "img": "images/Wood_Solid_Veneer/page_27_img_01.jpg", "material": "Solid Oak Wood", "color": "Various", "dimensions": "", "desc": ""},
-    {"name": "Walnut Coffee Table", "sku": "Walnut Coffee Table", "img": "images/Wood_Solid_Veneer/page_27_img_02.jpg", "material": "Solid Walnut Wood", "color": "Various", "dimensions": "", "desc": ""},
-    {"name": "Mahogany Console Table", "sku": "Mahogany Console Table", "img": "images/Wood_Solid_Veneer/page_27_img_03.jpg", "material": "Mahogany Wood + Veneer", "color": "Various", "dimensions": "", "desc": ""},
-    {"name": "Teak Sideboard", "sku": "Teak Sideboard", "img": "images/Wood_Solid_Veneer/page_27_img_04.jpg", "material": "Teak Wood + Veneer", "color": "Various", "dimensions": "", "desc": ""},
-    {"name": "Cherry Wood Desk", "sku": "Cherry Wood Desk", "img": "images/Wood_Solid_Veneer/page_27_img_05.jpg", "material": "Cherry Wood + Veneer", "color": "Various", "dimensions": "", "desc": ""},
-    {"name": "Rosewood Display Cabinet", "sku": "Rosewood Display Cabinet", "img": "images/Wood_Solid_Veneer/page_27_img_06.jpg", "material": "Rosewood + Glass", "color": "Various", "dimensions": "", "desc": ""},
+    {"name": "Solid Oak Dining Table", "sku": "YSO-001", "img": "images/Wood_Solid_Veneer/page_27_img_01.jpg", "material": "Solid Oak Wood", "color": "Natural Oak", "dimensions": "180x90x78 cm", "desc": "Premium solid oak dining table"},
+    {"name": "Walnut Coffee Table", "sku": "YWC-002", "img": "images/Wood_Solid_Veneer/page_27_img_02.jpg", "material": "Solid Walnut Wood", "color": "Dark Walnut", "dimensions": "130x70x42 cm", "desc": "Handcrafted walnut coffee table"},
+    {"name": "Mahogany Console Table", "sku": "YMC-003", "img": "images/Wood_Solid_Veneer/page_27_img_03.jpg", "material": "Mahogany Wood + Veneer", "color": "Mahogany", "dimensions": "140x35x80 cm", "desc": "Elegant mahogany console table"},
+    {"name": "Teak Sideboard", "sku": "YTS-004", "img": "images/Wood_Solid_Veneer/page_27_img_04.jpg", "material": "Teak Wood + Veneer", "color": "Teak Brown", "dimensions": "160x45x80 cm", "desc": "Premium teak sideboard"},
+    {"name": "Cherry Wood Desk", "sku": "YCD-005", "img": "images/Wood_Solid_Veneer/page_27_img_05.jpg", "material": "Cherry Wood + Veneer", "color": "Cherry", "dimensions": "140x65x76 cm", "desc": "Executive desk crafted from cherry wood"},
+    {"name": "Rosewood Display Cabinet", "sku": "YRC-006", "img": "images/Wood_Solid_Veneer/page_27_img_06.jpg", "material": "Rosewood + Glass", "color": "Rosewood", "dimensions": "90x40x180 cm", "desc": "Elegant display cabinet"},
   ],
   relaxing:[
     {"name": "FG113012", "sku": "FG113012", "img": "images/relaxing/FG113012.jpg", "material": "Steel Frame + Electric Control", "color": "Forma works collection of fabric and leather", "dimensions": "75 x 109 x 81 cm, Seat: 50 x 45 cm", "desc": "40HC: 195 sets. Net Wt: 35 kg"},
@@ -160,4 +160,4 @@ document.addEventListener("DOMContentLoaded",function(){
     }
   }
 });
-})();
+]});
