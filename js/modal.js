@@ -156,7 +156,10 @@ function openModal(product) {
   document.getElementById("yslModalImg").alt = product.name;
   document.getElementById("yslModalName").textContent = product.name;
   document.getElementById("yslModalSku").textContent = "SKU: " + product.sku;
-  document.getElementById("yslModalSpecs").innerHTML = "<tr><td>Material</td><td>" + product.material + "</td></tr><tr><td>Color</td><td>" + product.color + "</td></tr><tr><td>Dimensions</td><td>" + product.dimensions + "</td></tr>";
+  var specsHTML = "<tr><td>Material</td><td>" + product.material + "</td></tr>"
+    + "<tr><td>Color</td><td>" + product.color + "</td></tr>"
+    + "<tr><td>Dimensions</td><td>" + product.dimensions + "</td></tr>";
+  document.getElementById("yslModalSpecs").innerHTML = specsHTML;
   document.getElementById("yslModalDesc").textContent = product.desc;
   overlay.classList.add("active");
   document.body.style.overflow = "hidden";
