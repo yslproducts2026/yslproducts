@@ -2,17 +2,16 @@ import re, csv, json, os
 
 SITE = r"D:\website\yslproducts"
 
-def extract_cards_from_html(filepath):
-    html = open(filepath, encoding="utf-8").read().replace("\\n", "")
-    cards = re.findall(r'<div class="card"><img[^>]+src="([^"]+)"[^>]*alt="([^"]+)"[^>]*><div class="card-name">([^<]+)</div><div class="card-spec">([^<]*)</div></div>', html)
-    return cards
+def extract_cards(filepath):
+    html = open(filepath, encoding="utf-8").read().replace("\n", "")
+    return re.findall(r'<div class="card"><img[^>]+src="([^"]+)"[^>]*alt="([^"]+)"[^>]*><div class="card-name">([^<]+)</div><div class="card-spec">([^<]*)</div></div>', html)
 
-def read_csv_rows(path):
+def read_csv(path):
     with open(path, encoding="utf-8-sig") as f:
         return list(csv.DictReader(f))
 
-t1 = read_csv_rows(os.path.join(SITE, "products_template.csv"))
-t2 = read_csv_rows(os.path.join(SITE, "product_inventory.csv"))
+t1 = read_csv(os.path.join(SITE, "products_template.csv"))
+t2 = read_csv(os.path.join(SITE, "product_inventory.csv"))
 
 csv_lookup = {}
 for row in t1 + t2:
@@ -20,7 +19,7 @@ for row in t1 + t2:
     if sku:
         csv_lookup[sku] = row
 
-page_files = {
+pages = {
     "chairs": "chairs.html",
     "dining": "dining.html",
     "bedsSofas": "beds-sofas.html",
@@ -31,41 +30,32 @@ page_files = {
 }
 
 all_prods = {}
-for cat_js, page_file in page_files.items():
-    html_path = os.path.join(SITE, page_file)
-    if not os.path.exists(html_path):
-        print(cat_js + ": no HTML file")
-        continue
-    cards = extract_cards_from_html(html_path)
-    products = []
-    for img, alt, name, spec in cards:
+for cat, pf in pages.items():
+    cards = extract_cards(os.path.join(SITE, pf))
+    prods = []
+    for img, name, spec in cards:
         name = name.strip()
-        sku = name
-        row = csv_lookup.get(sku, {})
-        p = {
+        row = csv_lookup.get(name, {})
+        prods.append({
             "name": name,
-            "sku": sku,
+            "sku": name,
             "img": img,
             "material": spec.strip() or (row.get("material") or row.get("Card Spec") or "").strip(),
             "color": (row.get("color") or row.get("Color") or "").strip(),
             "dimensions": (row.get("dimensions") or row.get("Dimensions") or "").strip(),
             "desc": (row.get("description") or row.get("Description") or "").strip(),
-        }
-        products.append(p)
-    all_prods[cat_js] = products
-    print(cat_js + ": " + str(len(products)) + " products")
+        })
+    all_prods[cat] = prods
+    print(cat + ": " + str(len(prods)))
 
-lines = []
-lines.append("(function(){")
-lines.append("var P={")
+lines = ["(function(){", "var P={"]
 items = list(all_prods.items())
 for idx, (k, v) in enumerate(items):
     comma = "," if idx < len(items) - 1 else ""
-    json_str = json.dumps(v, ensure_ascii=False, indent=2)
-    lines.append("  " + k + ": " + json_str + comma)
+    lines.append("  " + k + ": " + json.dumps(v, ensure_ascii=False, indent=2) + comma)
 lines.append("};")
 
-modal = """var cat=document.body.dataset.category||"";
+modal = r"""var cat=document.body.dataset.category||"";
 var ov=null,cb=null;
 function ensureModal(){
   if(ov)return;
@@ -108,7 +98,6 @@ document.addEventListener("DOMContentLoaded",function(){
 lines.append(modal)
 lines.append("})();")
 
-out_path = os.path.join(SITE, "js", "modal.js")
-with open(out_path, "w", encoding="utf-8") as f:
+with open(os.path.join(SITE, "js", "modal.js"), "w", encoding="utf-8") as f:
     f.write("\n".join(lines))
 print("modal.js written!")

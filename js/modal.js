@@ -39,7 +39,9 @@ var P={
     {"name": "FG310082", "sku": "FG310082", "img": "images/chairs/FG310082.jpg", "material": "Steel Frame + Plywood", "color": "Forma works collection of fabric and leather", "dimensions": "64.5 x 85 x 65.5 cm, Seat: 47 x 50 cm", "desc": "40HC: 256 sets. Net Wt: 15.4 kg"},
     {"name": "FG310092", "sku": "FG310092", "img": "images/chairs/FG310092.jpg", "material": "Steel Frame + Plywood", "color": "Forma works collection of fabric and leather", "dimensions": "59.5 x 93 x 57 cm, Seat: 44 x 49 cm", "desc": "40HC: 256 sets. Net Wt: 14.6 kg"},
     {"name": "FG320011", "sku": "FG320011", "img": "images/chairs/FG320011.jpg", "material": "Steel Frame + Plywood", "color": "Forma works collection of fabric and leather", "dimensions": "52 x 82.5 x 59 cm, Seat: 42 x 46.5 cm", "desc": "40HC: 272 sets. Net Wt: 12.3 kg"},
-    {"name": "FG330020", "sku": "FG330020", "img": "images/chairs/FG330020.jpg", "material": "Steel Frame + Plywood", "color": "Forma works collection of fabric and leather", "dimensions": "46.5 x 52 x 91-112 cm, Seat: 37.5 x 61.5-81.5 cm", "desc": "40HC: 272 sets. Net Wt: 12.3 kg"}
+    {"name": "FG330020", "sku": "FG330020", "img": "images/chairs/FG330020.jpg", "material": "Steel Frame + Plywood", "color": "Forma works collection of fabric and leather", "dimensions": "46.5 x 52 x 91-112 cm, Seat: 37.5 x 61.5-81.5 cm", "desc": "40HC: 272 sets. Net Wt: 12.3 kg"},
+    {"name": "FG330010", "sku": "FG330010", "img": "images/relaxing/FG330010.jpg", "material": "Steel Frame + Plywood", "color": "Various", "dimensions": "46 x 90-111 x 53 cm, Seat: 40 x 63.5-83.5 cm", "desc": "Net Wt: 19.4 kg"},
+    {"name": "FG330040", "sku": "FG330040", "img": "images/relaxing/FG330040.jpg", "material": "Steel Frame + Plywood", "color": "Various", "dimensions": "52 x 88-109 x 50 cm, Seat: 38 x 63-84 cm", "desc": "Net Wt: 20.3 kg"}
   ],
   dining:[
     {"name": "4-Seater Dining Set", "sku": "DT-001", "img": "images/Dining/DT-001.jpg", "material": "Solid Wood", "color": "Walnut", "dimensions": "145x75x75 cm", "desc": "Elegant 4-seater dining set"},
@@ -150,9 +152,15 @@ document.addEventListener("DOMContentLoaded",function(){
   document.addEventListener("keydown",function(e){if(e.key==="Escape")closeModal();});
   if(cat&&P[cat]){
     var cards=document.querySelectorAll(".card");
-    var items=P[cat];
-    for(var i=0;i<cards.length&&i<items.length;i++){
-      (function(card,p){card.addEventListener("click",function(){openModal(p);});})(cards[i],items[i]);
+    for(var i=0;i<cards.length;i++){
+      (function(card){
+        var sku=card.getAttribute("data-sku");
+        var product=null;
+        for(var j=0;j<P[cat].length;j++){
+          if(P[cat][j].sku===sku){product=P[cat][j];break;}
+        }
+        if(product)card.addEventListener("click",function(){openModal(product);});
+      })(cards[i]);
     }
   }
 });
