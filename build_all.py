@@ -59,7 +59,7 @@ for page, cat in pages:
     with open(page, encoding="utf-8") as f:
         c = f.read()
     # Extract: src, alt, card-name, card-spec
-    pattern = r'<div class="card"><img[^>]+src="([^"]+)"[^>]+alt="([^"]+)"[^>]*><div class="card-name">([^<]+)</div><div class="card-spec">([^<]*)</div></div>'
+    pattern = r'<div class="card"[^>]*><img[^>]+src="([^"]+)"[^>]+alt="([^"]+)"[^>]*><div class="card-name">([^<]+)</div><div class="card-spec">([^<]*)</div></div>'
     matches = re.findall(pattern, c)
     prod_list = []
     for src, alt, card_name, card_spec in matches:
@@ -120,7 +120,7 @@ js += "  ensureModal();\n"
 js += '  if(cb)cb.addEventListener("click",closeModal);\n'
 js += '  if(ov)ov.addEventListener("click",function(e){if(e.target===ov)closeModal();});\n'
 js += '  document.addEventListener("keydown",function(e){if(e.key==="Escape")closeModal();});\n'
-js += '  if(cat&&P[cat]{\n'
+js += '  if(cat&&P[cat]){\n'
 js += '    var cards=document.querySelectorAll(".card");\n'
 js += "    var items=P[cat];\n"
 js += "    for(var i=0;i<cards.length&&i<items.length;i++){\n"
