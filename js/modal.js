@@ -1,4 +1,4 @@
-(function(){
+﻿(function(){
 var P={
   chairs:[
     {"name": "Chair Ottoman", "sku": "YDC-001", "img": "images/chairs/page_23_img_01.jpg", "material": "Solid Wood + Fabric", "color": "Grey Light Wood", "dimensions": "60x70x85 cm", "desc": "Nodic looking Chair with ottoman"},
@@ -160,4 +160,4 @@ document.addEventListener("DOMContentLoaded",function(){
     }
   }
 });
-]});
+})();
