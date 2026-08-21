@@ -6,8 +6,7 @@ var P={
     "sku": "YDC-001",
     "material": "Solid Wood + Fabric",
     "color": "Grey Light Wood",
-    "dimensions": "60x70x85 cm",
-    "desc": "Nodic looking Chair with ottoman",
+    "dimensions": "60x70x85 cm", "containerLoad": "", "desc": "Nodic looking Chair with ottoman",
     "img": "images/chairs/page_23_img_01.jpg"
   },
   {
@@ -15,8 +14,7 @@ var P={
     "sku": "YAC-002",
     "material": "metal leg + fabric",
     "color": "Grey",
-    "dimensions": "50x55x95 cm",
-    "desc": "Metal leg with wood looking heat transfer.",
+    "dimensions": "50x55x95 cm", "containerLoad": "", "desc": "Metal leg with wood looking heat transfer.",
     "img": "images/chairs/page_23_img_02.jpg"
   },
   {
@@ -24,8 +22,7 @@ var P={
     "sku": "YOC-003",
     "material": "Fabric+ metal leg",
     "color": "Black",
-    "dimensions": "50x45x90 cm",
-    "desc": "Premium office chair with high-back support",
+    "dimensions": "50x45x90 cm", "containerLoad": "", "desc": "Premium office chair with high-back support",
     "img": "images/chairs/page_23_img_03.jpg"
   },
   {
@@ -33,8 +30,7 @@ var P={
     "sku": "YVC-004",
     "material": "Velvet Fabric + Metal Legs",
     "color": "Dark Green",
-    "dimensions": "65x60x90cm",
-    "desc": "Luxurious velvet accent chair",
+    "dimensions": "65x60x90cm", "containerLoad": "", "desc": "Luxurious velvet accent chair",
     "img": "images/chairs/page_23_img_04.jpg"
   },
   {
@@ -42,8 +38,7 @@ var P={
     "sku": "YSC-005",
     "material": "Fabric + Metal Legs",
     "color": "Light Grey/Natural",
-    "dimensions": "50x45x90 cm",
-    "desc": "Minimalist Scandinavian-style dining chair",
+    "dimensions": "50x45x90 cm", "containerLoad": "", "desc": "Minimalist Scandinavian-style dining chair",
     "img": "images/chairs/page_23_img_05.jpg"
   },
   {
@@ -51,8 +46,7 @@ var P={
     "sku": "YTC-006",
     "material": "Fabric + Wood Frame",
     "color": "Cream",
-    "dimensions": "50x55x95 cm",
-    "desc": "Dining chair with Curved back frame",
+    "dimensions": "50x55x95 cm", "containerLoad": "", "desc": "Dining chair with Curved back frame",
     "img": "images/chairs/page_23_img_06.jpg"
   },
   {
@@ -60,8 +54,7 @@ var P={
     "sku": "YBS-007",
     "material": "Black/Walnut",
     "color": "45x50x120 cm",
-    "dimensions": "Industrial-style bar stool",
-    "desc": "",
+    "dimensions": "Industrial-style bar stool", "containerLoad": "", "desc": "",
     "img": "images/chairs/page_23_img_07.jpg"
   },
   {
@@ -69,8 +62,7 @@ var P={
     "sku": "YEM-008",
     "material": "Black",
     "color": "50x50x120 cm",
-    "dimensions": "Metal leg with wood looking heat transfer.",
-    "desc": "",
+    "dimensions": "Metal leg with wood looking heat transfer.", "containerLoad": "", "desc": "",
     "img": "images/chairs/page_23_img_08.jpg"
   },
   {
@@ -78,8 +70,7 @@ var P={
     "sku": "YML-009",
     "material": "Brown",
     "color": "50x55x90 cm",
-    "dimensions": "Iconic mid-century Dining Chair",
-    "desc": "",
+    "dimensions": "Iconic mid-century Dining Chair", "containerLoad": "", "desc": "",
     "img": "images/chairs/page_23_img_09.jpg"
   },
   {
@@ -87,8 +78,7 @@ var P={
     "sku": "YFC-010",
     "material": "Grey",
     "color": "55x60x95 cm",
-    "dimensions": "Arm Chair with Tufted button back cushion",
-    "desc": "",
+    "dimensions": "Arm Chair with Tufted button back cushion", "containerLoad": "", "desc": "",
     "img": "images/chairs/page_23_img_10.jpg"
   },
   {
@@ -96,8 +86,7 @@ var P={
     "sku": "YRA-011",
     "material": "Grey",
     "color": "55x60x95cm",
-    "dimensions": "Swivel arm chair",
-    "desc": "",
+    "dimensions": "Swivel arm chair", "containerLoad": "", "desc": "",
     "img": "images/chairs/page_23_img_11.jpg"
   },
   {
@@ -105,8 +94,7 @@ var P={
     "sku": "YKC-012",
     "material": "Grey",
     "color": "55x60x95cm",
-    "dimensions": "Tappered leg with swivel function",
-    "desc": "",
+    "dimensions": "Tappered leg with swivel function", "containerLoad": "", "desc": "",
     "img": "images/chairs/page_23_img_12.jpg"
   },
   {
@@ -114,8 +102,7 @@ var P={
     "sku": "YBC-013",
     "material": "Gold/Cream",
     "color": "48x52x92 cm",
-    "dimensions": "Elegant banquet chair",
-    "desc": "",
+    "dimensions": "Elegant banquet chair", "containerLoad": "", "desc": "",
     "img": "images/chairs/page_23_img_13.jpg"
   },
   {
@@ -123,8 +110,7 @@ var P={
     "sku": "YRC-014",
     "material": "Metal",
     "color": "48x52x92 cm",
-    "dimensions": "Classic Dining Chair with Tufted design",
-    "desc": "",
+    "dimensions": "Classic Dining Chair with Tufted design", "containerLoad": "", "desc": "",
     "img": "images/chairs/page_23_img_14.jpg"
   },
   {
@@ -132,8 +118,7 @@ var P={
     "sku": "FG120084",
     "material": "Steel Frame + Plywood + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "78 x 106.5 x 85.5 cm, Seat: 54 x 46 cm",
-    "desc": "40HC: 256 sets. Net Wt: 26.4 kg",
+    "dimensions": "78 x 106.5 x 85.5 cm, Seat: 54 x 46 cm", "containerLoad": "", "desc": "40HC: 256 sets. Net Wt: 26.4 kg",
     "img": "images/chairs/FG120084.jpg"
   },
   {
@@ -141,8 +126,7 @@ var P={
     "sku": "FG140094",
     "material": "Steel Frame + Plywood + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "69.5 x 104.5 x 80.5 cm, Seat: 50 x 45 cm",
-    "desc": "40HC: 192 sets. Net Wt: 42.2 kg",
+    "dimensions": "69.5 x 104.5 x 80.5 cm, Seat: 50 x 45 cm", "containerLoad": "", "desc": "40HC: 192 sets. Net Wt: 42.2 kg",
     "img": "images/chairs/FG140094.jpg"
   },
   {
@@ -150,8 +134,7 @@ var P={
     "sku": "FG140101",
     "material": "Steel Frame + Plywood + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "75 x 99.5 x 79.5 cm, Seat: 50 x 45 cm",
-    "desc": "40HC: 212 sets. Net Wt: 18.5 kg",
+    "dimensions": "75 x 99.5 x 79.5 cm, Seat: 50 x 45 cm", "containerLoad": "", "desc": "40HC: 212 sets. Net Wt: 18.5 kg",
     "img": "images/chairs/FG140101.jpg"
   },
   {
@@ -159,8 +142,7 @@ var P={
     "sku": "FG140113",
     "material": "Steel Frame + Plywood + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "76.5 x 91 x 93.5 cm, Seat: 56 x 45 cm",
-    "desc": "40HC: 180 sets. Net Wt: 23.5 kg",
+    "dimensions": "76.5 x 91 x 93.5 cm, Seat: 56 x 45 cm", "containerLoad": "", "desc": "40HC: 180 sets. Net Wt: 23.5 kg",
     "img": "images/chairs/FG140113.jpg"
   },
   {
@@ -168,8 +150,7 @@ var P={
     "sku": "FG140122",
     "material": "Steel Frame + Plywood + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "75.5 x 101.5 x 87.5 cm, Seat: 49 x 41.5 cm",
-    "desc": "Net Wt: 17.5 kg",
+    "dimensions": "75.5 x 101.5 x 87.5 cm, Seat: 49 x 41.5 cm", "containerLoad": "", "desc": "Net Wt: 17.5 kg",
     "img": "images/chairs/FG140122.jpg"
   },
   {
@@ -177,8 +158,7 @@ var P={
     "sku": "FG140132",
     "material": "Steel Frame + Plywood + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "76 x 105.5 x 82.5 cm, Seat: 51 x 45 cm",
-    "desc": "40HC: 246 sets. Net Wt: 21.7 kg",
+    "dimensions": "76 x 105.5 x 82.5 cm, Seat: 51 x 45 cm", "containerLoad": "", "desc": "40HC: 246 sets. Net Wt: 21.7 kg",
     "img": "images/chairs/FG140132.jpg"
   },
   {
@@ -186,8 +166,7 @@ var P={
     "sku": "FG140141",
     "material": "Steel Frame + Plywood + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "77 x 86 x 101.5 cm, Seat: 57 x 44.5 cm",
-    "desc": "40HC: 186 sets. Net Wt: 21.5 kg",
+    "dimensions": "77 x 86 x 101.5 cm, Seat: 57 x 44.5 cm", "containerLoad": "", "desc": "40HC: 186 sets. Net Wt: 21.5 kg",
     "img": "images/chairs/FG140141.jpg"
   },
   {
@@ -195,8 +174,7 @@ var P={
     "sku": "FG140154",
     "material": "Steel Frame + Plywood + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "73 x 105.5 x 84 cm, Seat: 50 x 45 cm",
-    "desc": "40HC: 170 sets. Net Wt: 25.5 kg",
+    "dimensions": "73 x 105.5 x 84 cm, Seat: 50 x 45 cm", "containerLoad": "", "desc": "40HC: 170 sets. Net Wt: 25.5 kg",
     "img": "images/chairs/FG140154.jpg"
   },
   {
@@ -204,8 +182,7 @@ var P={
     "sku": "FG140164",
     "material": "Steel Frame + Plywood + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "71.5 x 108 x 82.5 cm, Seat: 47 x 45.5 cm",
-    "desc": "40HC: 252 sets. Net Wt: 27.2 kg",
+    "dimensions": "71.5 x 108 x 82.5 cm, Seat: 47 x 45.5 cm", "containerLoad": "", "desc": "40HC: 252 sets. Net Wt: 27.2 kg",
     "img": "images/chairs/FG140164.jpg"
   },
   {
@@ -213,8 +190,7 @@ var P={
     "sku": "FG140174",
     "material": "Steel Frame + Plywood + Manual Control",
     "color": "Various",
-    "dimensions": "74 x 107.5 x 78.5 cm, Seat: 50 x 44.5 cm",
-    "desc": "40HC: 180 sets. Net Wt: 22.3 kg",
+    "dimensions": "74 x 107.5 x 78.5 cm, Seat: 50 x 44.5 cm", "containerLoad": "", "desc": "40HC: 180 sets. Net Wt: 22.3 kg",
     "img": "images/chairs/FG140174.jpg"
   },
   {
@@ -222,8 +198,7 @@ var P={
     "sku": "FG140211",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "69 x 85 x 78 cm, Seat: 54 x 48.5 cm",
-    "desc": "Net Wt: 13.6 kg",
+    "dimensions": "69 x 85 x 78 cm, Seat: 54 x 48.5 cm", "containerLoad": "", "desc": "Net Wt: 13.6 kg",
     "img": "images/chairs/FG140211.jpg"
   },
   {
@@ -231,8 +206,7 @@ var P={
     "sku": "FG140231",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "67 x 83.5 x 71.5 cm, Seat: 47.5 x 44 cm",
-    "desc": "Net Wt: 12.8 kg",
+    "dimensions": "67 x 83.5 x 71.5 cm, Seat: 47.5 x 44 cm", "containerLoad": "", "desc": "Net Wt: 12.8 kg",
     "img": "images/chairs/FG140231.jpg"
   },
   {
@@ -240,8 +214,7 @@ var P={
     "sku": "FG140241",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "70 x 92 x 80.5 cm, Seat: 49.5 x 43.5 cm",
-    "desc": "Net Wt: 13.4 kg",
+    "dimensions": "70 x 92 x 80.5 cm, Seat: 49.5 x 43.5 cm", "containerLoad": "", "desc": "Net Wt: 13.4 kg",
     "img": "images/chairs/FG140241.jpg"
   },
   {
@@ -249,8 +222,7 @@ var P={
     "sku": "FG140272",
     "material": "Steel Frame + Plywood + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "76.5 x 104.5 x 90.5 cm, Seat: 54 x 44 cm",
-    "desc": "40HC: 180 sets. Net Wt: 17.3 kg",
+    "dimensions": "76.5 x 104.5 x 90.5 cm, Seat: 54 x 44 cm", "containerLoad": "", "desc": "40HC: 180 sets. Net Wt: 17.3 kg",
     "img": "images/chairs/FG140272.jpg"
   },
   {
@@ -258,8 +230,7 @@ var P={
     "sku": "FG310021",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "50 x 87.5 x 66 cm, Seat: 48 x 50 cm",
-    "desc": "Net Wt: 21 kg",
+    "dimensions": "50 x 87.5 x 66 cm, Seat: 48 x 50 cm", "containerLoad": "", "desc": "Net Wt: 21 kg",
     "img": "images/chairs/FG310021.jpg"
   },
   {
@@ -267,8 +238,7 @@ var P={
     "sku": "FG310022",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "59 x 87.5 x 66 cm, Seat: 48 x 50 cm",
-    "desc": "Net Wt: 24.4 kg",
+    "dimensions": "59 x 87.5 x 66 cm, Seat: 48 x 50 cm", "containerLoad": "", "desc": "Net Wt: 24.4 kg",
     "img": "images/chairs/FG310022.jpg"
   },
   {
@@ -276,8 +246,7 @@ var P={
     "sku": "FG310031",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "54 x 87 x 66.5 cm, Seat: 45 x 51.5 cm",
-    "desc": "Net Wt: 20.5 kg",
+    "dimensions": "54 x 87 x 66.5 cm, Seat: 45 x 51.5 cm", "containerLoad": "", "desc": "Net Wt: 20.5 kg",
     "img": "images/chairs/FG310031.jpg"
   },
   {
@@ -285,8 +254,7 @@ var P={
     "sku": "FG310042",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "58 x 87 x 67 cm, Seat: 49.5 x 51 cm",
-    "desc": "Net Wt: 23.3 kg",
+    "dimensions": "58 x 87 x 67 cm, Seat: 49.5 x 51 cm", "containerLoad": "", "desc": "Net Wt: 23.3 kg",
     "img": "images/chairs/FG310042.jpg"
   },
   {
@@ -294,8 +262,7 @@ var P={
     "sku": "FG310052",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "61 x 87.5 x 63 cm, Seat: 48.5 x 52 cm",
-    "desc": "Net Wt: 24.9 kg",
+    "dimensions": "61 x 87.5 x 63 cm, Seat: 48.5 x 52 cm", "containerLoad": "", "desc": "Net Wt: 24.9 kg",
     "img": "images/chairs/FG310052.jpg"
   },
   {
@@ -303,8 +270,7 @@ var P={
     "sku": "FG310062",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "56 x 87 x 63 cm, Seat: 48 x 50 cm",
-    "desc": "Net Wt: 23.2 kg",
+    "dimensions": "56 x 87 x 63 cm, Seat: 48 x 50 cm", "containerLoad": "", "desc": "Net Wt: 23.2 kg",
     "img": "images/chairs/FG310062.jpg"
   },
   {
@@ -312,8 +278,7 @@ var P={
     "sku": "FG310072",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "64 x 88 x 65.5 cm, Seat: 49.5 x 50 cm",
-    "desc": "Net Wt: 28 kg",
+    "dimensions": "64 x 88 x 65.5 cm, Seat: 49.5 x 50 cm", "containerLoad": "", "desc": "Net Wt: 28 kg",
     "img": "images/chairs/FG310072.jpg"
   },
   {
@@ -321,8 +286,7 @@ var P={
     "sku": "FG310082",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "64.5 x 85 x 65.5 cm, Seat: 47 x 50 cm",
-    "desc": "Net Wt: 21.6 kg",
+    "dimensions": "64.5 x 85 x 65.5 cm, Seat: 47 x 50 cm", "containerLoad": "", "desc": "Net Wt: 21.6 kg",
     "img": "images/chairs/FG310082.jpg"
   },
   {
@@ -330,8 +294,7 @@ var P={
     "sku": "FG310092",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "59.5 x 93 x 57 cm, Seat: 44 x 49 cm",
-    "desc": "Net Wt: 20.4 kg",
+    "dimensions": "59.5 x 93 x 57 cm, Seat: 44 x 49 cm", "containerLoad": "", "desc": "Net Wt: 20.4 kg",
     "img": "images/chairs/FG310092.jpg"
   },
   {
@@ -339,8 +302,7 @@ var P={
     "sku": "FG320011",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "52 x 82.5 x 59 cm, Seat: 42 x 46.5 cm",
-    "desc": "Net Wt: 23 kg",
+    "dimensions": "52 x 82.5 x 59 cm, Seat: 42 x 46.5 cm", "containerLoad": "", "desc": "Net Wt: 23 kg",
     "img": "images/chairs/FG320011.jpg"
   },
   {
@@ -348,8 +310,7 @@ var P={
     "sku": "FG330020",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "46.5 x 52 x 91-112 cm, Seat: 37.5 x 61.5-81.5 cm",
-    "desc": "Net Wt: 18.6 kg",
+    "dimensions": "46.5 x 52 x 91-112 cm, Seat: 37.5 x 61.5-81.5 cm", "containerLoad": "", "desc": "Net Wt: 18.6 kg",
     "img": "images/chairs/FG330020.jpg"
   },
   {
@@ -357,8 +318,7 @@ var P={
     "sku": "FG330040",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "49.5 x 89.5-110.5 x 52.5 cm, Seat: 39 x 65-86 cm",
-    "desc": "",
+    "dimensions": "49.5 x 89.5-110.5 x 52.5 cm, Seat: 39 x 65-86 cm", "containerLoad": "", "desc": "",
     "img": "images/chairs/FG330040.jpg"
   },
   {
@@ -366,8 +326,7 @@ var P={
     "sku": "FG330010",
     "material": "Steel Frame + Plywood",
     "color": "Various",
-    "dimensions": "46 x 90-111 x 53 cm, Seat: 40 x 63.5-83.5 cm",
-    "desc": "Net Wt: 19.4 kg",
+    "dimensions": "46 x 90-111 x 53 cm, Seat: 40 x 63.5-83.5 cm", "containerLoad": "", "desc": "Net Wt: 19.4 kg",
     "img": "images/relaxing/FG330010.jpg"
   }
 ],
@@ -377,8 +336,7 @@ var P={
     "sku": "YDS-001",
     "material": "Solid Wood + MDF table top",
     "color": "Nature white",
-    "dimensions": "145x75x75 cm",
-    "desc": "Complete 4-seater dining set",
+    "dimensions": "145x75x75 cm", "containerLoad": "", "desc": "Complete 4-seater dining set",
     "img": "images/Dining/page_24_img_01.jpg"
   },
   {
@@ -386,8 +344,7 @@ var P={
     "sku": "YDT-002",
     "material": "Solid pine + MDF table top",
     "color": "Nature white",
-    "dimensions": "1118x75x73.5 cm",
-    "desc": "2 tone dining sets with 4 chairs",
+    "dimensions": "1118x75x73.5 cm", "containerLoad": "", "desc": "2 tone dining sets with 4 chairs",
     "img": "images/Dining/page_24_img_02.jpg"
   },
   {
@@ -395,8 +352,7 @@ var P={
     "sku": "YDM-003",
     "material": "Marble + Stainless Steel",
     "color": "White/Grey",
-    "dimensions": "90x90x75 cm",
-    "desc": "Luxurious marble-top dining set",
+    "dimensions": "90x90x75 cm", "containerLoad": "", "desc": "Luxurious marble-top dining set",
     "img": "images/Dining/page_24_img_03.jpg"
   },
   {
@@ -404,8 +360,7 @@ var P={
     "sku": "YRT-004",
     "material": "Metal leg with MDF top",
     "color": "White",
-    "dimensions": "100x100x75 cm",
-    "desc": "square pedestal table",
+    "dimensions": "100x100x75 cm", "containerLoad": "", "desc": "square pedestal table",
     "img": "images/Dining/page_24_img_04.jpg"
   },
   {
@@ -413,8 +368,7 @@ var P={
     "sku": "YSB-005",
     "material": "Metal leg with Tarrecado",
     "color": "Grey",
-    "dimensions": "160x100x75 cm",
-    "desc": "6 chair dining set",
+    "dimensions": "160x100x75 cm", "containerLoad": "", "desc": "6 chair dining set",
     "img": "images/Dining/page_24_img_05.jpg"
   },
   {
@@ -422,8 +376,7 @@ var P={
     "sku": "YCD-006",
     "material": "MDF + Steel Frame",
     "color": "White/Silver",
-    "dimensions": "120x80x75 cm",
-    "desc": "Space-saving dining set",
+    "dimensions": "120x80x75 cm", "containerLoad": "", "desc": "Space-saving dining set",
     "img": "images/Dining/page_24_img_06.jpg"
   },
   {
@@ -431,8 +384,7 @@ var P={
     "sku": "YFT-007",
     "material": "Reclaimed Wood",
     "color": "Natural",
-    "dimensions": "90x90x75 cm",
-    "desc": "Rustic farmhouse dining table",
+    "dimensions": "90x90x75 cm", "containerLoad": "", "desc": "Rustic farmhouse dining table",
     "img": "images/Dining/page_24_img_07.jpg"
   },
   {
@@ -440,8 +392,7 @@ var P={
     "sku": "YGT-008",
     "material": "Tempered Glass + Chrome",
     "color": "White/Clear",
-    "dimensions": "90x90x75 cm",
-    "desc": "Glass top dining table",
+    "dimensions": "90x90x75 cm", "containerLoad": "", "desc": "Glass top dining table",
     "img": "images/Dining/page_24_img_08.jpg"
   }
 ],
@@ -451,8 +402,7 @@ var P={
     "sku": "YKB-001",
     "material": "Fabric + Metal Frame",
     "color": "Multiple colors",
-    "dimensions": "200x210x150 cm",
-    "desc": "Elegant king-size bed",
+    "dimensions": "200x210x150 cm", "containerLoad": "", "desc": "Elegant king-size bed",
     "img": "images/beds-sofas/bed.jpg"
   },
   {
@@ -460,8 +410,7 @@ var P={
     "sku": "YBB-002",
     "material": "Fabric + Metal Mechanism",
     "color": "Beige",
-    "dimensions": "225x152x88 cm",
-    "desc": "Multi-functional sofa bed",
+    "dimensions": "225x152x88 cm", "containerLoad": "", "desc": "Multi-functional sofa bed",
     "img": "images/beds-sofas/sofabed with storage.jpg"
   },
   {
@@ -469,8 +418,7 @@ var P={
     "sku": "YSS-003",
     "material": "Fabric + extension bed",
     "color": "Beige",
-    "dimensions": "160x85x85 cm",
-    "desc": "Compact 2-seater sofa bed",
+    "dimensions": "160x85x85 cm", "containerLoad": "", "desc": "Compact 2-seater sofa bed",
     "img": "images/beds-sofas/2s sofa bed.jpg"
   },
   {
@@ -478,8 +426,7 @@ var P={
     "sku": "YWB-004",
     "material": "metal leg with PU cushion",
     "color": "black",
-    "dimensions": "120x175x90 cm",
-    "desc": "Chromed leg with tufted PU cushion",
+    "dimensions": "120x175x90 cm", "containerLoad": "", "desc": "Chromed leg with tufted PU cushion",
     "img": "images/beds-sofas/bed position.jpg"
   },
   {
@@ -487,8 +434,7 @@ var P={
     "sku": "YTB-005",
     "material": "metal leg with PU cushion",
     "color": "black",
-    "dimensions": "120x175x90 cm",
-    "desc": "Chromed leg with tufted PU cushion",
+    "dimensions": "120x175x90 cm", "containerLoad": "", "desc": "Chromed leg with tufted PU cushion",
     "img": "images/beds-sofas/bed positon2.jpg"
   },
   {
@@ -496,8 +442,7 @@ var P={
     "sku": "YCS-006",
     "material": "metal leg with PU cushion",
     "color": "black",
-    "dimensions": "120x175x90 cm",
-    "desc": "Chromed leg with tufted PU cushion",
+    "dimensions": "120x175x90 cm", "containerLoad": "", "desc": "Chromed leg with tufted PU cushion",
     "img": "images/beds-sofas/sofa position.jpg"
   }
 ],
@@ -507,8 +452,7 @@ var P={
     "sku": "Y3S-001",
     "material": "Fabric + Wood Frame",
     "color": "Multiple colors",
-    "dimensions": "200x90x85 cm",
-    "desc": "3-seater sofa",
+    "dimensions": "200x90x85 cm", "containerLoad": "", "desc": "3-seater sofa",
     "img": "images/upholstery/3s.jpg"
   },
   {
@@ -516,8 +460,7 @@ var P={
     "sku": "YBB-002",
     "material": "Fabric + Metal Mechanism",
     "color": "Beige",
-    "dimensions": "225x152x88 cm",
-    "desc": "Multi-functional sofa bed",
+    "dimensions": "225x152x88 cm", "containerLoad": "", "desc": "Multi-functional sofa bed",
     "img": "images/upholstery/bigboy.jpg"
   },
   {
@@ -525,8 +468,7 @@ var P={
     "sku": "YAC-003",
     "material": "Chenille Fabric + foam",
     "color": "Grey",
-    "dimensions": "80x80x90 cm",
-    "desc": "Single arm chair",
+    "dimensions": "80x80x90 cm", "containerLoad": "", "desc": "Single arm chair",
     "img": "images/upholstery/page_06_img_01.jpg"
   },
   {
@@ -534,8 +476,7 @@ var P={
     "sku": "YAC-004",
     "material": "Chenille Fabric + foam",
     "color": "Grey",
-    "dimensions": "80x80x90 cm",
-    "desc": "Single arm chair",
+    "dimensions": "80x80x90 cm", "containerLoad": "", "desc": "Single arm chair",
     "img": "images/upholstery/page_06_img_02.jpg"
   }
 ],
@@ -545,8 +486,7 @@ var P={
     "sku": "YTV-001",
     "material": "MDF + Paper Laminate",
     "color": "White",
-    "dimensions": "180x40x50 cm",
-    "desc": "Modern TV entertainment unit",
+    "dimensions": "180x40x50 cm", "containerLoad": "", "desc": "Modern TV entertainment unit",
     "img": "images/Wood_Paper_Laminated/page_25_img_01.jpg"
   },
   {
@@ -554,8 +494,7 @@ var P={
     "sku": "YBS-002",
     "material": "MDF + Paper Laminate",
     "color": "Oak Pattern",
-    "dimensions": "80x30x180 cm",
-    "desc": "5-tier bookshelf",
+    "dimensions": "80x30x180 cm", "containerLoad": "", "desc": "5-tier bookshelf",
     "img": "images/Wood_Paper_Laminated/page_25_img_02.jpg"
   },
   {
@@ -563,8 +502,7 @@ var P={
     "sku": "YCD-003",
     "material": "MDF + Steel Frame",
     "color": "White",
-    "dimensions": "120x60x75 cm",
-    "desc": "Modern computer desk",
+    "dimensions": "120x60x75 cm", "containerLoad": "", "desc": "Modern computer desk",
     "img": "images/Wood_Paper_Laminated/page_25_img_03.jpg"
   },
   {
@@ -572,8 +510,7 @@ var P={
     "sku": "YSC-004",
     "material": "MDF + Paper Laminate",
     "color": "White",
-    "dimensions": "80x30x100 cm",
-    "desc": "Slim shoe cabinet",
+    "dimensions": "80x30x100 cm", "containerLoad": "", "desc": "Slim shoe cabinet",
     "img": "images/Wood_Paper_Laminated/page_25_img_04.jpg"
   },
   {
@@ -581,8 +518,7 @@ var P={
     "sku": "YCT-005",
     "material": "MDF + Paper Laminate",
     "color": "Oak",
-    "dimensions": "100x60x45 cm",
-    "desc": "Modern coffee table",
+    "dimensions": "100x60x45 cm", "containerLoad": "", "desc": "Modern coffee table",
     "img": "images/Wood_Paper_Laminated/page_25_img_05.jpg"
   },
   {
@@ -590,8 +526,7 @@ var P={
     "sku": "YWR-006",
     "material": "MDF + Paper Laminate",
     "color": "White",
-    "dimensions": "120x55x200 cm",
-    "desc": "2-door wardrobe",
+    "dimensions": "120x55x200 cm", "containerLoad": "", "desc": "2-door wardrobe",
     "img": "images/Wood_Paper_Laminated/page_26_img_01.jpg"
   },
   {
@@ -599,8 +534,7 @@ var P={
     "sku": "YDR-007",
     "material": "MDF + Paper Laminate",
     "color": "White",
-    "dimensions": "80x45x90 cm",
-    "desc": "5-drawer chest",
+    "dimensions": "80x45x90 cm", "containerLoad": "", "desc": "5-drawer chest",
     "img": "images/Wood_Paper_Laminated/page_26_img_02.jpg"
   }
 ],
@@ -610,8 +544,7 @@ var P={
     "sku": "YSO-001",
     "material": "Solid Oak Wood",
     "color": "Natural Oak",
-    "dimensions": "180x90x78 cm",
-    "desc": "Premium solid oak dining table",
+    "dimensions": "180x90x78 cm", "containerLoad": "", "desc": "Premium solid oak dining table",
     "img": "images/Wood_Solid_Veneer/page_27_img_01.jpg"
   },
   {
@@ -619,8 +552,7 @@ var P={
     "sku": "YWC-002",
     "material": "Solid Walnut Wood",
     "color": "Dark Walnut",
-    "dimensions": "130x70x42 cm",
-    "desc": "Handcrafted walnut coffee table",
+    "dimensions": "130x70x42 cm", "containerLoad": "", "desc": "Handcrafted walnut coffee table",
     "img": "images/Wood_Solid_Veneer/page_27_img_02.jpg"
   },
   {
@@ -628,8 +560,7 @@ var P={
     "sku": "YMC-003",
     "material": "Mahogany Wood + Veneer",
     "color": "Mahogany",
-    "dimensions": "140x35x80 cm",
-    "desc": "Elegant mahogany console table",
+    "dimensions": "140x35x80 cm", "containerLoad": "", "desc": "Elegant mahogany console table",
     "img": "images/Wood_Solid_Veneer/page_27_img_03.jpg"
   },
   {
@@ -637,8 +568,7 @@ var P={
     "sku": "YTS-004",
     "material": "Teak Wood + Veneer",
     "color": "Teak Brown",
-    "dimensions": "160x45x80 cm",
-    "desc": "Premium teak sideboard",
+    "dimensions": "160x45x80 cm", "containerLoad": "", "desc": "Premium teak sideboard",
     "img": "images/Wood_Solid_Veneer/page_27_img_04.jpg"
   },
   {
@@ -646,8 +576,7 @@ var P={
     "sku": "YCD-005",
     "material": "Cherry Wood + Veneer",
     "color": "Cherry",
-    "dimensions": "140x65x76 cm",
-    "desc": "Executive desk crafted from cherry wood",
+    "dimensions": "140x65x76 cm", "containerLoad": "", "desc": "Executive desk crafted from cherry wood",
     "img": "images/Wood_Solid_Veneer/page_27_img_05.jpg"
   },
   {
@@ -655,8 +584,7 @@ var P={
     "sku": "YRC-006",
     "material": "Rosewood + Glass",
     "color": "Rosewood",
-    "dimensions": "90x40x180 cm",
-    "desc": "Elegant display cabinet",
+    "dimensions": "90x40x180 cm", "containerLoad": "", "desc": "Elegant display cabinet",
     "img": "images/Wood_Solid_Veneer/page_27_img_06.jpg"
   }
 ],
@@ -666,8 +594,7 @@ var P={
     "sku": "FG113012",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "75 x 109 x 81 cm, Seat: 50 x 45 cm",
-    "desc": "40HC: 195 sets. Net Wt: 35 kg",
+    "dimensions": "75 x 109 x 81 cm, Seat: 50 x 45 cm", "containerLoad": "", "desc": "40HC: 195 sets. Net Wt: 35 kg",
     "img": "images/relaxing/FG113012.jpg"
   },
   {
@@ -675,8 +602,7 @@ var P={
     "sku": "FG113022",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "76.5 x 115.5 x 85 cm, Seat: 49.5 x 45.5 cm",
-    "desc": "40HC: 195 sets. Net Wt: 38.9 kg",
+    "dimensions": "76.5 x 115.5 x 85 cm, Seat: 49.5 x 45.5 cm", "containerLoad": "", "desc": "40HC: 195 sets. Net Wt: 38.9 kg",
     "img": "images/relaxing/FG113022.jpg"
   },
   {
@@ -684,8 +610,7 @@ var P={
     "sku": "FG113032",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "70.5 x 111 x 84 cm, Seat: 51 x 45.5 cm",
-    "desc": "40HC: 185 sets. Net Wt: 36.7 kg",
+    "dimensions": "70.5 x 111 x 84 cm, Seat: 51 x 45.5 cm", "containerLoad": "", "desc": "40HC: 185 sets. Net Wt: 36.7 kg",
     "img": "images/relaxing/FG113032.jpg"
   },
   {
@@ -693,8 +618,7 @@ var P={
     "sku": "FG113042",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "67 x 107 x 84 cm, Seat: 51 x 45.5 cm",
-    "desc": "40HC: 210 sets. Net Wt: 37 kg",
+    "dimensions": "67 x 107 x 84 cm, Seat: 51 x 45.5 cm", "containerLoad": "", "desc": "40HC: 210 sets. Net Wt: 37 kg",
     "img": "images/relaxing/FG113042.jpg"
   },
   {
@@ -702,8 +626,7 @@ var P={
     "sku": "FG113052",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "73 x 111 x 82.5 cm, Seat: 51 x 45.5 cm",
-    "desc": "40HC: 195 sets. Net Wt: 45.5 kg",
+    "dimensions": "73 x 111 x 82.5 cm, Seat: 51 x 45.5 cm", "containerLoad": "", "desc": "40HC: 195 sets. Net Wt: 45.5 kg",
     "img": "images/relaxing/FG113052.jpg"
   },
   {
@@ -711,8 +634,7 @@ var P={
     "sku": "CH-255099P2",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "73.5 x 107 x 83.5 cm, Seat: 50.5 x 47 cm",
-    "desc": "40HC: 220 sets. Net Wt: 34.5 kg",
+    "dimensions": "73.5 x 107 x 83.5 cm, Seat: 50.5 x 47 cm", "containerLoad": "", "desc": "40HC: 220 sets. Net Wt: 34.5 kg",
     "img": "images/relaxing/CH-255099P2.jpg"
   },
   {
@@ -720,8 +642,7 @@ var P={
     "sku": "FG113102",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "67 x 109.5 x 83.5 cm, Seat: 51 x 46.5 cm",
-    "desc": "40HC: 215 sets. Net Wt: 37.1 kg",
+    "dimensions": "67 x 109.5 x 83.5 cm, Seat: 51 x 46.5 cm", "containerLoad": "", "desc": "40HC: 215 sets. Net Wt: 37.1 kg",
     "img": "images/relaxing/FG113102.jpg"
   },
   {
@@ -729,8 +650,7 @@ var P={
     "sku": "FG136061",
     "material": "Steel Frame + Plywood + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "73 x 106 x 89 cm, Seat: 53 x 48 cm",
-    "desc": "40HC: 189 sets. Net Wt: 45.2 kg",
+    "dimensions": "73 x 106 x 89 cm, Seat: 53 x 48 cm", "containerLoad": "", "desc": "40HC: 189 sets. Net Wt: 45.2 kg",
     "img": "images/relaxing/FG136061.jpg"
   },
   {
@@ -738,8 +658,7 @@ var P={
     "sku": "CH-253085L2",
     "material": "Steel Frame + Plywood + Manual Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "72.5 x 105 x 87 cm, Seat: 53 x 48 cm",
-    "desc": "Net Wt: 45.2 kg",
+    "dimensions": "72.5 x 105 x 87 cm, Seat: 53 x 48 cm", "containerLoad": "", "desc": "Net Wt: 45.2 kg",
     "img": "images/relaxing/CH-253085L2.jpg"
   },
   {
@@ -747,8 +666,7 @@ var P={
     "sku": "FG136072",
     "material": "Steel Frame + Plywood + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "73 x 106 x 87 cm, Seat: 53 x 48 cm",
-    "desc": "40HC: 189 sets. Net Wt: 46 kg",
+    "dimensions": "73 x 106 x 87 cm, Seat: 53 x 48 cm", "containerLoad": "", "desc": "40HC: 189 sets. Net Wt: 46 kg",
     "img": "images/relaxing/FG136072.jpg"
   },
   {
@@ -756,8 +674,7 @@ var P={
     "sku": "CH-253109L2",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "71.5 x 106 x 88 cm, Seat: 54 x 48 cm",
-    "desc": "40HC: 192 sets. Net Wt: 47 kg",
+    "dimensions": "71.5 x 106 x 88 cm, Seat: 54 x 48 cm", "containerLoad": "", "desc": "40HC: 192 sets. Net Wt: 47 kg",
     "img": "images/relaxing/CH-253109L2.jpg"
   },
   {
@@ -765,8 +682,7 @@ var P={
     "sku": "FG136121MH",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "83 x 104.5 x 90.5 cm, Seat: 55 x 50 cm",
-    "desc": "40HC: 168 sets. Net Wt: 51.5 kg",
+    "dimensions": "83 x 104.5 x 90.5 cm, Seat: 55 x 50 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 51.5 kg",
     "img": "images/relaxing/FG136121MH.jpg"
   },
   {
@@ -774,8 +690,7 @@ var P={
     "sku": "FG136122",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "83 x 106 x 87 cm, Seat: 54 x 49.5 cm",
-    "desc": "40HC: 168 sets. Net Wt: 50 kg",
+    "dimensions": "83 x 106 x 87 cm, Seat: 54 x 49.5 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 50 kg",
     "img": "images/relaxing/FG136122.jpg"
   },
   {
@@ -783,8 +698,7 @@ var P={
     "sku": "FG136131MH",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "81.5 x 107 x 87.5 cm, Seat: 50 x 49 cm",
-    "desc": "40HC: 168 sets. Net Wt: 51.5 kg",
+    "dimensions": "81.5 x 107 x 87.5 cm, Seat: 50 x 49 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 51.5 kg",
     "img": "images/relaxing/FG136131MH.jpg"
   },
   {
@@ -792,8 +706,7 @@ var P={
     "sku": "FG136132",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "81 x 109 x 86 cm, Seat: 51 x 49 cm",
-    "desc": "40HC: 168 sets. Net Wt: 49.8 kg",
+    "dimensions": "81 x 109 x 86 cm, Seat: 51 x 49 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 49.8 kg",
     "img": "images/relaxing/FG136132.jpg"
   },
   {
@@ -801,8 +714,7 @@ var P={
     "sku": "FG136141",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "82.5 x 108.5 x 85 cm, Seat: 52 x 48 cm",
-    "desc": "40HC: 168 sets. Net Wt: 50 kg",
+    "dimensions": "82.5 x 108.5 x 85 cm, Seat: 52 x 48 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 50 kg",
     "img": "images/relaxing/FG136141.jpg"
   },
   {
@@ -810,8 +722,7 @@ var P={
     "sku": "FG136141MH",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "83 x 109 x 89 cm, Seat: 52 x 50.5 cm",
-    "desc": "40HC: 168 sets. Net Wt: 52.1 kg",
+    "dimensions": "83 x 109 x 89 cm, Seat: 52 x 50.5 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 52.1 kg",
     "img": "images/relaxing/FG136141MH.jpg"
   },
   {
@@ -819,8 +730,7 @@ var P={
     "sku": "FG150121",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "80 x 103 x 92.5 cm, Seat: 54 x 49 cm",
-    "desc": "40HC: 168 sets. Net Wt: 50.2 kg",
+    "dimensions": "80 x 103 x 92.5 cm, Seat: 54 x 49 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 50.2 kg",
     "img": "images/relaxing/FG150121.jpg"
   },
   {
@@ -828,8 +738,7 @@ var P={
     "sku": "FG150121MH",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "84 x 104 x 92 cm, Seat: 54.5 x 49 cm",
-    "desc": "40HC: 168 sets. Net Wt: 53.7 kg",
+    "dimensions": "84 x 104 x 92 cm, Seat: 54.5 x 49 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 53.7 kg",
     "img": "images/relaxing/FG150121MH.jpg"
   },
   {
@@ -837,8 +746,7 @@ var P={
     "sku": "FG150128",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "85 x 104 x 91.5 cm, Seat: 54 x 49 cm",
-    "desc": "40HC: 168 sets. Net Wt: 47.1 kg",
+    "dimensions": "85 x 104 x 91.5 cm, Seat: 54 x 49 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 47.1 kg",
     "img": "images/relaxing/FG150128.jpg"
   },
   {
@@ -846,8 +754,7 @@ var P={
     "sku": "FG150131",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "82 x 105 x 89.5 cm, Seat: 53 x 48.5 cm",
-    "desc": "40HC: 168 sets. Net Wt: 49.1 kg",
+    "dimensions": "82 x 105 x 89.5 cm, Seat: 53 x 48.5 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 49.1 kg",
     "img": "images/relaxing/FG150131.jpg"
   },
   {
@@ -855,8 +762,7 @@ var P={
     "sku": "FG150131MH",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "81.5 x 104 x 86 cm, Seat: 53 x 48.5 cm",
-    "desc": "40HC: 168 sets. Net Wt: 51.5 kg",
+    "dimensions": "81.5 x 104 x 86 cm, Seat: 53 x 48.5 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 51.5 kg",
     "img": "images/relaxing/FG150131MH.jpg"
   },
   {
@@ -864,8 +770,7 @@ var P={
     "sku": "FG150138",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "82 x 105.5 x 89.5 cm, Seat: 54 x 49.5 cm",
-    "desc": "40HC: 168 sets. Net Wt: 44.6 kg",
+    "dimensions": "82 x 105.5 x 89.5 cm, Seat: 54 x 49.5 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 44.6 kg",
     "img": "images/relaxing/FG150138.jpg"
   },
   {
@@ -873,8 +778,7 @@ var P={
     "sku": "FG150141",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "81 x 107.5 x 91 cm, Seat: 55 x 49.5 cm",
-    "desc": "40HC: 168 sets. Net Wt: 47.1 kg",
+    "dimensions": "81 x 107.5 x 91 cm, Seat: 55 x 49.5 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 47.1 kg",
     "img": "images/relaxing/FG150141.jpg"
   },
   {
@@ -882,8 +786,7 @@ var P={
     "sku": "FG150141MH",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "80 x 106 x 92 cm, Seat: 54 x 48.5 cm",
-    "desc": "40HC: 168 sets. Net Wt: 52.1 kg",
+    "dimensions": "80 x 106 x 92 cm, Seat: 54 x 48.5 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 52.1 kg",
     "img": "images/relaxing/FG150141MH.jpg"
   },
   {
@@ -891,8 +794,7 @@ var P={
     "sku": "FG150148",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "81 x 108 x 91 cm, Seat: 55 x 50 cm",
-    "desc": "40HC: 168 sets. Net Wt: 45 kg",
+    "dimensions": "81 x 108 x 91 cm, Seat: 55 x 50 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 45 kg",
     "img": "images/relaxing/FG150148.jpg"
   },
   {
@@ -900,8 +802,7 @@ var P={
     "sku": "FG150151",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "82 x 106.5 x 89.5 cm, Seat: 53 x 48 cm",
-    "desc": "40HC: 168 sets. Net Wt: 45.1 kg",
+    "dimensions": "82 x 106.5 x 89.5 cm, Seat: 53 x 48 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 45.1 kg",
     "img": "images/relaxing/FG150151.jpg"
   },
   {
@@ -909,8 +810,7 @@ var P={
     "sku": "FG150151MH",
     "material": "Steel Frame + Electric Control",
     "color": "Various",
-    "dimensions": "82 x 109 x 90.5 cm, Seat: 53.5 x 48 cm",
-    "desc": "40HC: 168 sets. Net Wt: 53.1 kg",
+    "dimensions": "82 x 109 x 90.5 cm, Seat: 53.5 x 48 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 53.1 kg",
     "img": "images/relaxing/FG150151MH.jpg"
   },
   {
@@ -918,8 +818,7 @@ var P={
     "sku": "FG150158",
     "material": "Steel Frame + Electric Control",
     "color": "Forma works collection of fabric and leather",
-    "dimensions": "82 x 106.5 x 89.5 cm, Seat: 53 x 48 cm",
-    "desc": "40HC: 168 sets. Net Wt: 45.1 kg",
+    "dimensions": "82 x 106.5 x 89.5 cm, Seat: 53 x 48 cm", "containerLoad": "", "desc": "40HC: 168 sets. Net Wt: 45.1 kg",
     "img": "images/relaxing/FG150158.jpg"
   }
 ]
@@ -945,6 +844,7 @@ function openModal(p){
   h+="<tr><td>Material</td><td>"+p.material+"</td></tr>";
   h+="<tr><td>Color</td><td>"+p.color+"</td></tr>";
   h+="<tr><td>Dimensions</td><td>"+p.dimensions+"</td></tr>";
+  if(p.containerLoad){h+="<tr><td>Container Load</td><td>"+p.containerLoad+"</td></tr>";}
   document.getElementById("yslModalSpecs").innerHTML=h;
   document.getElementById("yslModalDesc").textContent=p.desc||"";
   ov.classList.add("active");
