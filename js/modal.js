@@ -57,8 +57,6 @@ var P={
     {"name": "King Size Bed", "sku": "YKB-001", "img": "images/beds-sofas/bed.jpg", "material": "Fabric + Metal Frame", "color": "Multiple colors", "dimensions": "200x210x150 cm", "desc": "Elegant king-size bed"},
     {"name": "Sofa Bed", "sku": "Sofa Bed", "img": "images/beds-sofas/sofabed with storage.jpg", "material": "Fabric + Metal Mechanism", "color": "Various", "dimensions": "", "desc": ""},
     {"name": "2-Seater Sofa Bed", "sku": "YSS-003", "img": "images/beds-sofas/2s sofa bed.jpg", "material": "Fabric + extension bed", "color": "Beige", "dimensions": "160x85x85 cm", "desc": "Compact 2-seater sofa bed"},
-    {"name": "Chair sofa", "sku": "YWB-004", "img": "images/beds-sofas/bed position.jpg", "material": "metal leg with PU cushion", "color": "black", "dimensions": "120x175x90 cm", "desc": "Chromed leg with tufted PU cushion"},
-    {"name": "Twin Bed Frame", "sku": "YTB-005", "img": "images/beds-sofas/bed positon2.jpg", "material": "metal leg with PU cushion", "color": "black", "dimensions": "120x175x90 cm", "desc": "Chromed leg with tufted PU cushion"},
     {"name": "Chaise Sofa", "sku": "YCS-006", "img": "images/beds-sofas/sofa position.jpg", "material": "metal leg with PU cushion", "color": "black", "dimensions": "120x175x90 cm", "desc": "Chromed leg with tufted PU cushion"},
     {"name": "SST2691 Sofa", "sku": "SST2691", "img": "images/beds-sofas/SST2691.jpg", "material": "Plywood + Topline Spring", "color": "Family of furniture", "dimensions": "219 x 90 x 150 cm, Seat: 47 x 190 cm", "desc": "40HC: 58 sets. Net Wt: 85 kg"},
   ],
