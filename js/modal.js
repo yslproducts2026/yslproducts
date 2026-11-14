@@ -129,7 +129,7 @@ function ensureModal(){
   ov=document.createElement("div");
   ov.id="yslModalOverlay";
   ov.className="modal-overlay";
-  ov.innerHTML='<div class="modal-dialog"><button class="modal-close" id="yslModalClose">&times;</button><div class="modal-image-wrap"><img id="yslModalImg" src="" alt=""></div><div class="modal-body"><h2 id="yslModalName"></h2><div class="modal-sku" id="yslModalSku"></div><table><tbody id="yslModalSpecs"></tbody></table><p class="modal-desc" id="yslModalDesc"></p><a href="#contact" class="modal-cta" id="yslModalCTA">Inquire About This Product</a></div></div>';
+  ov.innerHTML='<div class="modal-dialog"><button class="modal-close" id="yslModalClose">&times;</button><div class="modal-content"><div class="modal-left"><div class="modal-image-wrap"><img id="yslModalImg" src="" alt=""></div></div><div class="modal-right"><div class="modal-header"><h2 id="yslModalName"></h2><span class="modal-sku" id="yslModalSku"></span></div><div class="modal-tabs"><button class="modal-tab active" data-tab="overview">Overview</button><button class="modal-tab" data-tab="specs">Specifications</button></div><div class="modal-panel active" id="panel-overview"><div class="modal-desc-section"><h4>Product Description</h4><p class="modal-desc" id="yslModalDesc"></p></div></div><div class="modal-panel" id="panel-specs"><div class="modal-specs-grid" id="yslModalSpecs"></div></div><a href="#contact" class="modal-cta" id="yslModalCTA">Inquire About This Product</a></div></div></div>';
   document.body.appendChild(ov);
   cb=document.getElementById("yslModalClose");
 }
@@ -139,9 +139,9 @@ function openModal(p){
   document.getElementById("yslModalImg").alt=p.name;
   document.getElementById("yslModalName").textContent=p.name;
   document.getElementById("yslModalSku").textContent="SKU: "+p.sku;
-  var h="<tr><td>Material</td><td>"+p.material+"</td></tr><tr><td>Color</td><td>"+p.color+"</td></tr><tr><td>Dimensions</td><td>"+p.dimensions+"</td></tr>";
+  var h='<div class="spec-item"><span class="spec-label">Material</span><span class="spec-val">'+p.material+'</span></div><div class="spec-item"><span class="spec-label">Color</span><span class="spec-val">'+p.color+'</span></div><div class="spec-item"><span class="spec-label">Dimensions</span><span class="spec-val">'+(p.dimensions||'N/A')+'</span></div>';
   document.getElementById("yslModalSpecs").innerHTML=h;
-  document.getElementById("yslModalDesc").textContent=p.desc||"";
+  document.getElementById("yslModalDesc").textContent=p.desc||"No description available.";
   ov.classList.add("active");
   document.body.style.overflow="hidden";
 }
@@ -151,6 +151,15 @@ document.addEventListener("DOMContentLoaded",function(){
   if(cb)cb.addEventListener("click",closeModal);
   if(ov)ov.addEventListener("click",function(e){if(e.target===ov)closeModal();});
   document.addEventListener("keydown",function(e){if(e.key==="Escape")closeModal();});
+  document.addEventListener("click",function(e){
+    if(e.target.classList.contains("modal-tab")){
+      var tab = e.target.dataset.tab;
+      document.querySelectorAll(".modal-tab").forEach(t=>t.classList.remove("active"));
+      e.target.classList.add("active");
+      document.querySelectorAll(".modal-panel").forEach(p=>p.classList.remove("active"));
+      document.getElementById("panel-"+tab).classList.add("active");
+    }
+  });
   if(cat&&P[cat]){
     var cards=document.querySelectorAll(".card");
     var items=P[cat];
