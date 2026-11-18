@@ -218,3 +218,8 @@ footer{background:#f5f5f5;color:#333;padding:42px 20px 0;margin-top:0}
   .contact-cards{grid-template-columns:1fr}
   .float-wa{bottom:16px;right:16px;width:46px;height:46px}
 }
+
+/* Card links to detail pages */
+.card-link{display:block;text-decoration:none;color:inherit}
+.card-link:hover .card{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.card-link .card{cursor:pointer}
